@@ -26,7 +26,7 @@ sg5
 S'-80.205792'
 p12
 sg7
-S'BATHGATE DRIVE PARK '
+S'BATHGATE DRIVE PARK'
 p13
 sba(i__main__
 Park
@@ -52,7 +52,7 @@ sg5
 S'-80.255464'
 p22
 sg7
-S'BRANT AVENUE PARK '
+S'BRANT AVENUE PARK'
 p23
 sba(i__main__
 Park
@@ -65,7 +65,7 @@ sg5
 S'-80.243543'
 p27
 sg7
-S'BRISTOL STREET PARK '
+S'BRISTOL STREET PARK'
 p28
 sba(i__main__
 Park
@@ -143,7 +143,7 @@ sg5
 S'-80.249743'
 p57
 sg7
-S'CENTENNIAL PARK '
+S'CENTENNIAL PARK'
 p58
 sba(i__main__
 Park
@@ -156,7 +156,7 @@ sg5
 S'-80.189013'
 p62
 sg7
-S'CLAIR PARK '
+S'CLAIR PARK'
 p63
 sba(i__main__
 Park
@@ -169,7 +169,7 @@ sg5
 S'-80.262817'
 p67
 sg7
-S'CNR SPURLINE PARK '
+S'CNR SPURLINE PARK'
 p68
 sba(i__main__
 Park
@@ -182,7 +182,7 @@ sg5
 S'-80.18172'
 p72
 sg7
-S'COLONIAL DRIVE PARK '
+S'COLONIAL DRIVE PARK'
 p73
 sba(i__main__
 Park
@@ -195,7 +195,7 @@ sg5
 S'-80.256012'
 p77
 sg7
-S'CRANE PARK '
+S'CRANE PARK'
 p78
 sba(i__main__
 Park
@@ -208,7 +208,7 @@ sg5
 S'-80.251943'
 p82
 sg7
-S'DAKOTA PARK '
+S'DAKOTA PARK'
 p83
 sba(i__main__
 Park
@@ -221,7 +221,7 @@ sg5
 S'-80.279668'
 p87
 sg7
-S'DEERPATH DRIVE PARK '
+S'DEERPATH DRIVE PARK'
 p88
 sba(i__main__
 Park
@@ -234,7 +234,7 @@ sg5
 S'-80.253459'
 p92
 sg7
-S'DOVERCLIFFE PARK '
+S'DOVERCLIFFE PARK'
 p93
 sba(i__main__
 Park
@@ -247,7 +247,7 @@ sg5
 S'-80.271083'
 p97
 sg7
-S'DREW PARK '
+S'DREW PARK'
 p98
 sba(i__main__
 Park
@@ -260,7 +260,7 @@ sg5
 S'-80.24616'
 p102
 sg7
-S'DRUMMOND PARK '
+S'DRUMMOND PARK'
 p103
 sba(i__main__
 Park
@@ -286,7 +286,7 @@ sg5
 S'-80.295722'
 p112
 sg7
-S'EARL BRIMBLECOMBE PARK '
+S'EARL BRIMBLECOMBE PARK'
 p113
 sba(i__main__
 Park
@@ -312,7 +312,7 @@ sg5
 S'-80.280771'
 p122
 sg7
-S'ELMIRA PARK '
+S'ELMIRA PARK'
 p123
 sba(i__main__
 Park
@@ -325,7 +325,7 @@ sg5
 S'-80.220914'
 p127
 sg7
-S'ERAMOSA RIVER PARK '
+S'ERAMOSA RIVER PARK'
 p128
 sba(i__main__
 Park
@@ -364,7 +364,7 @@ sg5
 S'-80.236323'
 p142
 sg7
-S'FRANCHETTO PARK '
+S'FRANCHETTO PARK'
 p143
 sba(i__main__
 Park
@@ -377,7 +377,7 @@ sg5
 S' -80.26705'
 p147
 sg7
-S'GOLDIE PARK '
+S'GOLDIE PARK'
 p148
 sba(i__main__
 Park
@@ -390,7 +390,7 @@ sg5
 S'-80.253131'
 p152
 sg7
-S'GOLDIE MILL PARK '
+S'GOLDIE MILL PARK'
 p153
 sba(i__main__
 Park
@@ -403,7 +403,7 @@ sg5
 S'-80.266613'
 p157
 sg7
-S'GOLFVIEW PARK '
+S'GOLFVIEW PARK'
 p158
 sba(i__main__
 Park
@@ -442,7 +442,7 @@ sg5
 S'-80.242805'
 p172
 sg7
-S'GREEN MEADOWS PARK '
+S'GREEN MEADOWS PARK'
 p173
 sba(i__main__
 Park
@@ -507,7 +507,7 @@ sg5
 S'-80.257511'
 p197
 sg7
-S'HERB MARKLE PARK '
+S'HERB MARKLE PARK'
 p198
 sba(i__main__
 Park
@@ -520,7 +520,7 @@ sg5
 S'-80.242424'
 p202
 sg7
-S'HERITAGE PARK '
+S'HERITAGE PARK'
 p203
 sba(i__main__
 Park
@@ -533,7 +533,7 @@ sg5
 S'-80.27158'
 p207
 sg7
-S'HIGHVIEW PARK '
+S'HIGHVIEW PARK'
 p208
 sba(i__main__
 Park
@@ -572,7 +572,7 @@ sg5
 S'-80.187424'
 p222
 sg7
-S'HOWDEN CRES PARK '
+S'HOWDEN CRES PARK'
 p223
 sba(i__main__
 Park
@@ -585,7 +585,7 @@ sg5
 S'-80.26194'
 p227
 sg7
-S'HOWITT PARK '
+S'HOWITT PARK'
 p228
 sba(i__main__
 Park
@@ -611,7 +611,7 @@ sg5
 S'-80.252163'
 p237
 sg7
-S'I.O.D.E. FOUNTAIN '
+S'I.O.D.E. FOUNTAIN'
 p238
 sba(i__main__
 Park
@@ -624,7 +624,7 @@ sg5
 S'-80.189086'
 p242
 sg7
-S'JENSON BOULEVARD PARK '
+S'JENSON BOULEVARD PARK'
 p243
 sba(i__main__
 Park
@@ -663,7 +663,7 @@ sg5
 S'-80.23386'
 p257
 sg7
-S'JOHN GAMBLE  PARK '
+S'JOHN GAMBLE  PARK'
 p258
 sba(i__main__
 Park
@@ -676,7 +676,7 @@ sg5
 S'-80.245256'
 p262
 sg7
-S'JOHN McCRAE GARDEN PARK '
+S'JOHN McCRAE GARDEN PARK'
 p263
 sba(i__main__
 Park
@@ -689,7 +689,7 @@ sg5
 S'-80.253062'
 p267
 sg7
-S'JOSEPH WOLFOND PARK (E) Arthur '
+S'JOSEPH WOLFOND PARK (E) Arthur'
 p268
 sba(i__main__
 Park
@@ -715,7 +715,7 @@ sg5
 S'-80.275992'
 p277
 sg7
-S'KIMBERLEY PARK '
+S'KIMBERLEY PARK'
 p278
 sba(i__main__
 Park
@@ -728,7 +728,7 @@ sg5
 S'-80.229899'
 p282
 sg7
-S'KORTRIGHT HILLS PARK '
+S'KORTRIGHT HILLS PARK'
 p283
 sba(i__main__
 Park
@@ -754,7 +754,7 @@ sg5
 S'-80.220548'
 p292
 sg7
-S'LEE STREET PARK '
+S'LEE STREET PARK'
 p293
 sba(i__main__
 Park
@@ -780,7 +780,7 @@ sg5
 S'-80.229775'
 p302
 sg7
-S'LYON PARK '
+S'LYON PARK'
 p303
 sba(i__main__
 Park
@@ -793,7 +793,7 @@ sg5
 S'-80.213574'
 p307
 sg7
-S'MACALISTER PARK '
+S'MACALISTER PARK'
 p308
 sba(i__main__
 Park
@@ -806,7 +806,7 @@ sg5
 S'-80.278312'
 p312
 sg7
-S'MARGARET GREENE PARK '
+S'MARGARET GREENE PARK'
 p313
 sba(i__main__
 Park
@@ -819,7 +819,7 @@ sg5
 S'-80.241351'
 p317
 sg7
-S"MARIANNE'S PARK "
+S"MARIANNE'S PARK"
 p318
 sba(i__main__
 Park
@@ -845,7 +845,7 @@ sg5
 S'-80.289006'
 p327
 sg7
-S'MARKSAM PARK '
+S'MARKSAM PARK'
 p328
 sba(i__main__
 Park
@@ -858,7 +858,7 @@ sg5
 S'-80.220111'
 p332
 sg7
-S'MAYFIELD PARK '
+S'MAYFIELD PARK'
 p333
 sba(i__main__
 Park
@@ -871,7 +871,7 @@ sg5
 S'-80.267057'
 p337
 sg7
-S'MEMORIAL CRESCENT PARK '
+S'MEMORIAL CRESCENT PARK'
 p338
 sba(i__main__
 Park
@@ -897,7 +897,7 @@ sg5
 S'-80.296916'
 p347
 sg7
-S'MITCHELL PARK '
+S'MITCHELL PARK'
 p348
 sba(i__main__
 Park
@@ -910,7 +910,7 @@ sg5
 S'-80.239156'
 p352
 sg7
-S'MOLLISON PARK '
+S'MOLLISON PARK'
 p353
 sba(i__main__
 Park
@@ -949,7 +949,7 @@ sg5
 S'-80.249841'
 p367
 sg7
-S'NORTHUMBERLAND PARK '
+S'NORTHUMBERLAND PARK'
 p368
 sba(i__main__
 Park
@@ -962,7 +962,7 @@ sg5
 S'-80.220838'
 p372
 sg7
-S'OAK STREET PARK '
+S'OAK STREET PARK'
 p373
 sba(i__main__
 Park
@@ -975,7 +975,7 @@ sg5
 S'-80.220201'
 p377
 sg7
-S"O'CONNOR LANE PARK "
+S"O'CONNOR LANE PARK"
 p378
 sba(i__main__
 Park
@@ -1014,7 +1014,7 @@ sg5
 S'-80.233803'
 p392
 sg7
-S'PALERMO PARK '
+S'PALERMO PARK'
 p393
 sba(i__main__
 Park
@@ -1027,7 +1027,7 @@ sg5
 S'-80.233819'
 p397
 sg7
-S'PETER MISERSKY PARK '
+S'PETER MISERSKY PARK'
 p398
 sba(i__main__
 Park
@@ -1053,7 +1053,7 @@ sg5
 S'-80.194176'
 p407
 sg7
-S'PINE RIDGE PARK '
+S'PINE RIDGE PARK'
 p408
 sba(i__main__
 Park
@@ -1092,7 +1092,7 @@ sg5
 S'-80.223761'
 p422
 sg7
-S'RICKSON PARK '
+S'RICKSON PARK'
 p423
 sba(i__main__
 Park
@@ -1105,7 +1105,7 @@ sg5
 S'-80.27151'
 p427
 sg7
-S'RIVERSIDE PARK '
+S'RIVERSIDE PARK'
 p428
 sba(i__main__
 Park
@@ -1118,7 +1118,7 @@ sg5
 S'-80.201732'
 p432
 sg7
-S'ROBIN ROAD PARK '
+S'ROBIN ROAD PARK'
 p433
 sba(i__main__
 Park
@@ -1131,7 +1131,7 @@ sg5
 S'-80.242649'
 p437
 sg7
-S'ROYAL CITY PARK '
+S'ROYAL CITY PARK'
 p438
 sba(i__main__
 Park
@@ -1157,7 +1157,7 @@ sg5
 S'-80.216871'
 p447
 sg7
-S'SEVERN DRIVE PARK '
+S'SEVERN DRIVE PARK'
 p448
 sba(i__main__
 Park
@@ -1183,7 +1183,7 @@ sg5
 S'-80.247803'
 p457
 sg7
-S'SKOV PARK '
+S'SKOV PARK'
 p458
 sba(i__main__
 Park
@@ -1196,7 +1196,7 @@ sg5
 S'-80.276184'
 p462
 sg7
-S'SLEEMAN PARK '
+S'SLEEMAN PARK'
 p463
 sba(i__main__
 Park
@@ -1209,7 +1209,7 @@ sg5
 S'-80.194316'
 p467
 sg7
-S'SOUTH END COMMUNITY PARK '
+S'SOUTH END COMMUNITY PARK'
 p468
 sba(i__main__
 Park
@@ -1235,7 +1235,7 @@ sg5
 S'-80.241829'
 p477
 sg7
-S"ST. GEORGE'S PARK "
+S"ST. GEORGE'S PARK"
 p478
 sba(i__main__
 Park
@@ -1248,7 +1248,7 @@ sg5
 S'-80.229041'
 p482
 sg7
-S'STARVIEW CRESCENT PARK '
+S'STARVIEW CRESCENT PARK'
 p483
 sba(i__main__
 Park
@@ -1261,7 +1261,7 @@ sg5
 S'-80.235064'
 p487
 sg7
-S'STEFFLER PARK '
+S'STEFFLER PARK'
 p488
 sba(i__main__
 Park
@@ -1274,7 +1274,7 @@ sg5
 S'-80.281611'
 p492
 sg7
-S'STEPHANIE DRIVE PARK '
+S'STEPHANIE DRIVE PARK'
 p493
 sba(i__main__
 Park
@@ -1287,7 +1287,7 @@ sg5
 S'-80.264576'
 p497
 sg7
-S'SUFFOLK STREET PARK '
+S'SUFFOLK STREET PARK'
 p498
 sba(i__main__
 Park
@@ -1326,7 +1326,7 @@ sg5
 S'-80.259401'
 p512
 sg7
-S'SUNNY ACRES PARK '
+S'SUNNY ACRES PARK'
 p513
 sba(i__main__
 Park
@@ -1352,7 +1352,7 @@ sg5
 S'-80.231687'
 p522
 sg7
-S'UNIVERSITY VILLAGE PARK '
+S'UNIVERSITY VILLAGE PARK'
 p523
 sba(i__main__
 Park
@@ -1365,7 +1365,7 @@ sg5
 S'-80.240828'
 p527
 sg7
-S'W.E. HAMILTON PARK '
+S'W.E. HAMILTON PARK'
 p528
 sba(i__main__
 Park
@@ -1378,7 +1378,7 @@ sg5
 S'-80.248834'
 p532
 sg7
-S'WATERLOO AVENUE PARK '
+S'WATERLOO AVENUE PARK'
 p533
 sba(i__main__
 Park
@@ -1391,7 +1391,7 @@ sg5
 S'-80.258034'
 p537
 sg7
-S'WAVERLEY PARK '
+S'WAVERLEY PARK'
 p538
 sba(i__main__
 Park
@@ -1404,7 +1404,7 @@ sg5
 S'-80.188402'
 p542
 sg7
-S'WESTMINSTER WOODS PARK '
+S'WESTMINSTER WOODS PARK'
 p543
 sba(i__main__
 Park
@@ -1443,7 +1443,7 @@ sg5
 S'-80.261135'
 p557
 sg7
-S'WINDSOR PARK '
+S'WINDSOR PARK'
 p558
 sba(i__main__
 Park
@@ -1456,7 +1456,7 @@ sg5
 S'-80.244988'
 p562
 sg7
-S'WOODLAND GLEN PARK '
+S'WOODLAND GLEN PARK'
 p563
 sba(i__main__
 Park
@@ -1469,7 +1469,7 @@ sg5
 S'-80.217951'
 p567
 sg7
-S'YEWHOLME PARK '
+S'YEWHOLME PARK'
 p568
 sba(i__main__
 Park
@@ -1482,7 +1482,7 @@ sg5
 S'-80.240505'
 p572
 sg7
-S'YORK ROAD PARK '
+S'YORK ROAD PARK'
 p573
 sba(i__main__
 Park
@@ -1599,6 +1599,6 @@ sg5
 S'-80.20792'
 p617
 sg7
-S'Royal Canadian Legion '
+S'Royal Canadian Legion'
 p618
 sba.

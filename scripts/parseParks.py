@@ -21,6 +21,9 @@ if __name__ == "__main__":
 
     for child in root:
         name = child.find("ParkName").text
+        if name[-1] == " ":
+            name = name[:-1]
+
         lat = child.find("Latitude").text
         lon = child.find("Longitude").text
 
