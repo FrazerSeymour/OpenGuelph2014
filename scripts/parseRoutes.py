@@ -11,24 +11,13 @@ from pickle import dump
 class Route:
     def __init__ (self,  name):
         self.name = name
-        self.stops = []
         self.route = []
-        
-    def appendToStops(self, item):
-        self.stops.append(item)
         
     def appendToRoute(self, item):
         self.route.append(item)
         
     def getName(self): return self.name
-    def getStops(self): return self.stops
     def getRoute(self): return self.route
-    
-    def notInStops(self, item):
-        if self.stops.count(item):
-            return False
-        else:
-            return True
 
 if __name__ == "__main__":
     routes = []
@@ -48,11 +37,9 @@ if __name__ == "__main__":
                     names.append(name)
                     routes.append(Route(name))
 
-                stopName = row[3].split('_')[1]
+                stopName = row[3].split('_')[1].title()
                 for route in routes:
                     if name == route.getName():
-                        if not route.getStops().count(stopName):
-                            route.appendToStops(stopName)
                         route.appendToRoute([stopName, row[1], row[2]])
 
 
