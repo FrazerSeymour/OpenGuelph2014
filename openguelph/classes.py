@@ -1,3 +1,14 @@
+class Park:
+    def __init__ (self,  name, lat, lon):
+        self.name = name
+        self.lat = lat
+        self.lon = lon
+        
+    def getName(self):  return self.name
+    def getLat(self):   return self.lat
+    def getLon(self):   return self.lon
+
+
 class Route:
     def __init__ (self,  name):
         self.name = name

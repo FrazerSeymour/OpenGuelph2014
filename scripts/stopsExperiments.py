@@ -22,12 +22,12 @@ if __name__ == "__main__":
     stops = load(f)
     f.close()
 
+    routes = ["2A", "Route2B", "Route3B", "Route4", "Route10", "Route11", "Route14", "Route20", "Route21", "Route1A", "Route1B", "Route12", "Route6", "Route7", "Route13", "Route3A", "Route5", "Route15", "Route8", "Route9", "Route56", "Route57", "Route58", "Route50", "Route16", "Route Gordon Corridor"]
+
     for stop in stops:
-        if len(stop.getRoutes()) > 1:
-            print stop.getName() ,
-            for i in stop.getRoutes():
-                print i ,
-            print ""
+        for route in stop.getRoutes():
+            if route not in routes:
+                print route
 
     #stopNames = []
     #for stop in stops:
