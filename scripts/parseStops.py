@@ -30,23 +30,24 @@ if __name__ == "__main__":
         positions = []
         for row in csvreader:
             try:
-                name = row[2]
-                name = name.upper()
-                name = name.replace(".", "")
+                if row[0] != "stop_id":
+                    name = row[2]
+                    name = name.upper()
+                    name = name.replace(".", "")
 
-                lat = row[4]
-                lon = row[5]
+                    lat = row[4]
+                    lon = row[5]
 
-                if not positions.count([lat, lon]):
-                    positions.append([lat, lon])
-                    stops.append(Stop(name, lat, lon))
+                    if not positions.count([lat, lon]):
+                        positions.append([lat, lon])
+                        stops.append(Stop(name, lat, lon))
 
-                route = row[0].split("-")[0]
-                if route == "Route":
-                    route = "Route Gordon Corridor"
-                for stop in stops:
-                    if lat == stop.getLat() and lon == stop.getLon():
-                        stop.addRoute(route)
+                    route = row[0].split("-")[0]
+                    if route == "Route":
+                        route = "Route Gordon Corridor"
+                    for stop in stops:
+                        if lat == stop.getLat() and lon == stop.getLon():
+                            stop.addRoute(route)
                 
 
             except:
