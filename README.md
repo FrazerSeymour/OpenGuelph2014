@@ -24,3 +24,9 @@ Saturday, 3:00 PM
 Saturday, 4:30 PM
 ---
   After a brief but terrifying episode featuring a non-functional computer, I've added a `parseParks` script.
+
+Saturday, 7:15 PM
+---
+  Whew! There's light at the end of the tunnel!
+
+  I have started working through bus route calculations in the `calculations` script. At present, I can locate the nearest bus stop to a latitude/longitude pair and determine when the next bus leaves from a specified stop. (Any stop, in theory, but I only care about the UC and Guelph Central)
