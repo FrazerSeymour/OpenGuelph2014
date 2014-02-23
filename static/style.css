@@ -1,0 +1,73 @@
+.header {
+		background: #00a7e5;
+		height: 100px;
+		width: 100%;
+		position: relative;
+}
+
+.footer {
+		background: #323a45;
+		height: 100px;
+		width: 100%;
+		position: relative;
+}
+
+.index_button {
+		color: #323a45;
+		background: #ea6d24;
+		text-align: center;
+		margin: 1% 25%;
+		padding: 5%;
+		position: relative;
+		border-radius: 10px;
+		border-style: solid;
+		border-width: 5px;
+		border-color: #ea6d24;
+		font-family: "sans";
+}
+
+.index_button:hover {
+		border-color: #323a45;
+		color: #fff;
+}
+
+a {
+		text-decoration: none;
+}
+
+.go_place {
+		margin: 2% 25%;
+		color: #111;
+		border-style: solid;
+		border-width: 2%;
+		border-color: #323a45;
+		border-radius: 5px;
+		font-family: "sans";
+}
+
+.go_place:hover {
+		border-color: #ea6d24;
+}
+
+.go_name {
+		background-color: #e9e6e1;
+		text-align: left;
+		position: relative;
+		padding: 5px;
+}
+
+.go_address {
+		padding: 1%;
+		display: inline-block;
+		position: relative;
+		text-align: left;
+		width: 47%;
+}
+
+.go_summary {
+		padding: 1%;
+		display: inline-block;
+		position: relative;
+		text-align: right;
+		width: 47%;
+}

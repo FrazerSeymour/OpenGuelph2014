@@ -39,4 +39,8 @@ Saturday, 10:45 PM
 
   I reverted the bus stop information to the official file, and tweaked my code to work around it.
 
-  
+Sunday, 2:30 AM
+---
+  I feel like I haven't accomplished much in the last four hours, but I haven't stopped working so I must have done something.
+
+  Created generic `Place` class and converted `Park`s into `Place`s. Also made some headway on the webapp front-end.

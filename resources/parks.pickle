@@ -3,1602 +3,2590 @@
 Park
 p1
 (dp2
-S'lat'
+S'description'
 p3
-S'43.558561'
+S''
 p4
 sS'lon'
 p5
 S'-80.274627'
 p6
-sS'name'
+sS'summary'
 p7
-S'BAILEY PARK'
+S'Community Park'
 p8
+sS'address'
+p9
+S'55 Bailey Avenue'
+p10
+sS'lat'
+p11
+S'43.558561'
+p12
+sS'name'
+p13
+S'Bailey Park'
+p14
 sba(i__main__
 Park
-p9
-(dp10
+p15
+(dp16
 g3
-S'43.520464'
-p11
+g4
 sg5
 S'-80.205792'
-p12
-sg7
-S'BATHGATE DRIVE PARK'
-p13
-sba(i__main__
-Park
-p14
-(dp15
-g3
-S'43.582723'
-p16
-sg5
-S'-80.257454'
 p17
 sg7
-S'BEVERLEY ROBSON PARK'
+S'Neighbourhood Park'
 p18
-sba(i__main__
-Park
+sg9
+S'52 Bathgate Drive'
 p19
-(dp20
-g3
-S'43.58071'
+sg11
+S'43.520464'
+p20
+sg13
+S'Bathgate Drive Park'
 p21
-sg5
-S'-80.255464'
-p22
-sg7
-S'BRANT AVENUE PARK'
-p23
 sba(i__main__
 Park
-p24
-(dp25
+p22
+(dp23
 g3
-S'43.54651'
-p26
+g4
 sg5
-S'-80.243543'
-p27
+S'-80.257454'
+p24
 sg7
-S'BRISTOL STREET PARK'
+S'Neighbourhood Park'
+p25
+sg9
+S'55 Carere Crescent'
+p26
+sg11
+S'43.582723'
+p27
+sg13
+S'Beverley Robson Park'
 p28
 sba(i__main__
 Park
 p29
 (dp30
 g3
-S'43.562958'
+g4
+sg5
+S'-80.255464'
 p31
+sg7
+S'Neighbourhood Park'
+p32
+sg9
+S'601 Woodlawn Road East'
+p33
+sg11
+S'43.58071'
+p34
+sg13
+S'Brant Avenue Park'
+p35
+sba(i__main__
+Park
+p36
+(dp37
+g3
+g4
+sg5
+S'-80.243543'
+p38
+sg7
+S'Community Park'
+p39
+sg9
+S'220 Bristol Street East'
+p40
+sg11
+S'43.54651'
+p41
+sg13
+S'Bristol Street Park'
+p42
+sba(i__main__
+Park
+p43
+(dp44
+g3
+g4
 sg5
 S'-80.250666'
-p32
+p45
 sg7
-S'BULLFROG POND PARK'
-p33
+S'Neighbourhood Park'
+p46
+sg9
+S'13 Walnut Drive'
+p47
+sg11
+S'43.562958'
+p48
+sg13
+S'Bullfrog Pond Park'
+p49
 sba(i__main__
 Park
-p34
-(dp35
+p50
+(dp51
 g3
-S'43.557144'
-p36
+g4
 sg5
 S'-80.280827'
-p37
-sg7
-S'BURNS DRIVE PARK'
-p38
-sba(i__main__
-Park
-p39
-(dp40
-g3
-S'43.569382'
-p41
-sg5
-S'-80.243296'
-p42
-sg7
-S'CARTER PARK'
-p43
-sba(i__main__
-Park
-p44
-(dp45
-g3
-S'43.52851'
-p46
-sg5
-S'-80.272823'
-p47
-sg7
-S'CASTLEBURY DRIVE PARK'
-p48
-sba(i__main__
-Park
-p49
-(dp50
-g3
-S'43.560792'
-p51
-sg5
-S'-80.220344'
 p52
 sg7
-S'CEDARVALE PARK'
+S'Neighbourhood Park'
 p53
-sba(i__main__
-Park
+sg9
+S'25 Burns Drive'
 p54
-(dp55
-g3
-S'43.519502'
+sg11
+S'43.557144'
+p55
+sg13
+S'Burns Drive Park'
 p56
-sg5
-S'-80.249743'
-p57
-sg7
-S'CENTENNIAL PARK'
-p58
 sba(i__main__
 Park
-p59
-(dp60
+p57
+(dp58
 g3
-S'43.504213'
-p61
+g4
 sg5
-S'-80.189013'
-p62
+S'-80.243296'
+p59
 sg7
-S'CLAIR PARK'
+S'Neighbourhood Park'
+p60
+sg9
+S'1 Fletcher Court'
+p61
+sg11
+S'43.569382'
+p62
+sg13
+S'Carter Park'
 p63
 sba(i__main__
 Park
 p64
 (dp65
 g3
-S'43.555931'
+g4
+sg5
+S'-80.272823'
 p66
-sg5
-S'-80.262817'
+sg7
+S'Community Park'
 p67
-sg7
-S'CNR SPURLINE PARK'
+sg9
+S'50 Castlebury Drive'
 p68
-sba(i__main__
-Park
+sg11
+S'43.52851'
 p69
-(dp70
-g3
-S'43.517435'
+sg13
+S'Castlebury Drive Park'
+p70
+sba(i__main__
+Park
 p71
+(dp72
+g3
+g4
 sg5
-S'-80.18172'
-p72
-sg7
-S'COLONIAL DRIVE PARK'
+S'-80.220344'
 p73
-sba(i__main__
-Park
+sg7
+S'Neighbourhood Park'
 p74
-(dp75
-g3
-S'43.511448'
+sg9
+S'32 Cedarvale Avenue'
+p75
+sg11
+S'43.560792'
 p76
-sg5
-S'-80.256012'
+sg13
+S'Cedarvale Park'
 p77
-sg7
-S'CRANE PARK'
+sba(i__main__
+Park
 p78
-sba(i__main__
-Park
-p79
-(dp80
+(dp79
 g3
-S'43.573539'
-p81
+g4
 sg5
-S'-80.251943'
-p82
+S'-80.249743'
+p80
 sg7
-S'DAKOTA PARK'
+S'Regional Park'
+p81
+sg9
+S'373/ 377 College Avenue West'
+p82
+sg11
+S'43.519502'
 p83
+sg13
+S'Centennial Park'
+p84
 sba(i__main__
 Park
-p84
-(dp85
+p85
+(dp86
 g3
-S'43.526276'
-p86
+g4
 sg5
-S'-80.279668'
+S'-80.189013'
 p87
 sg7
-S'DEERPATH DRIVE PARK'
+S'Neighbourhood Park'
 p88
-sba(i__main__
-Park
+sg9
+S'22 Eugene Drive'
 p89
-(dp90
-g3
-S'43.512899'
+sg11
+S'43.504213'
+p90
+sg13
+S'Clair Park'
 p91
-sg5
-S'-80.253459'
-p92
-sg7
-S'DOVERCLIFFE PARK'
-p93
 sba(i__main__
 Park
-p94
-(dp95
+p92
+(dp93
 g3
-S'43.541947'
-p96
+g4
 sg5
-S'-80.271083'
-p97
+S'-80.262817'
+p94
 sg7
-S'DREW PARK'
+S'Community Park'
+p95
+sg9
+S'508 Woolwich Street'
+p96
+sg11
+S'43.555931'
+p97
+sg13
+S'Cnr Spurline Park'
 p98
 sba(i__main__
 Park
 p99
 (dp100
 g3
-S'43.567123'
+g4
+sg5
+S'-80.18172'
 p101
-sg5
-S'-80.24616'
+sg7
+S'Community Park'
 p102
-sg7
-S'DRUMMOND PARK'
+sg9
+S'181 Colonial Drive'
 p103
-sba(i__main__
-Park
+sg11
+S'43.517435'
 p104
-(dp105
-g3
-S'43.528631'
+sg13
+S'Colonial Drive Park'
+p105
+sba(i__main__
+Park
 p106
+(dp107
+g3
+g4
 sg5
-S'-80.291961'
-p107
-sg7
-S'DUNHILL PLACE PARK'
+S'-80.256012'
 p108
-sba(i__main__
-Park
+sg7
+S'Conservation Lands'
 p109
-(dp110
-g3
-S'43.524973'
+sg9
+S'96 Dovercliffe Road'
+p110
+sg11
+S'43.511448'
 p111
-sg5
-S'-80.295722'
+sg13
+S'Crane Park'
 p112
-sg7
-S'EARL BRIMBLECOMBE PARK'
+sba(i__main__
+Park
 p113
-sba(i__main__
-Park
-p114
-(dp115
+(dp114
 g3
-S'43.580309'
-p116
+g4
 sg5
-S'-80.227598'
-p117
+S'-80.251943'
+p115
 sg7
-S'EASTVIEW COMMUNITY PARK'
+S'Neighbourhood Park'
+p116
+sg9
+S'40 Dakota Drive'
+p117
+sg11
+S'43.573539'
 p118
+sg13
+S'Dakota Park'
+p119
 sba(i__main__
 Park
-p119
-(dp120
+p120
+(dp121
 g3
-S'43.517731'
-p121
+g4
 sg5
-S'-80.280771'
+S'-80.279668'
 p122
 sg7
-S'ELMIRA PARK'
+S'Neighbourhood Park'
 p123
-sba(i__main__
-Park
+sg9
+S'18 Deerpath Drive'
 p124
-(dp125
-g3
-S'43.549786'
+sg11
+S'43.526276'
+p125
+sg13
+S'Deerpath Drive Park'
 p126
-sg5
-S'-80.220914'
-p127
-sg7
-S'ERAMOSA RIVER PARK'
-p128
 sba(i__main__
 Park
-p129
-(dp130
+p127
+(dp128
 g3
-S'43.54817'
-p131
+g4
 sg5
-S'-80.259588'
-p132
+S'-80.253459'
+p129
 sg7
-S'EXHIBITION PARK'
+S'Community Park'
+p130
+sg9
+S'38 Dovercliffe Road'
+p131
+sg11
+S'43.512899'
+p132
+sg13
+S'Dovercliffe Park'
 p133
 sba(i__main__
 Park
 p134
 (dp135
 g3
-S'43.579639'
+g4
+sg5
+S'-80.271083'
 p136
-sg5
-S'-80.25968'
+sg7
+S'Neighbourhood Park'
 p137
-sg7
-S'FERNDALE PARK'
+sg9
+S'29 Drew Street'
 p138
-sba(i__main__
-Park
+sg11
+S'43.541947'
 p139
-(dp140
-g3
-S'43.55729'
+sg13
+S'Drew Park'
+p140
+sba(i__main__
+Park
 p141
+(dp142
+g3
+g4
 sg5
-S'-80.236323'
-p142
-sg7
-S'FRANCHETTO PARK'
+S'-80.24616'
 p143
-sba(i__main__
-Park
+sg7
+S'Neighbourhood Park'
 p144
-(dp145
-g3
-S'43.53528'
+sg9
+S'10 Drummond Place'
+p145
+sg11
+S'43.567123'
 p146
-sg5
-S' -80.26705'
+sg13
+S'Drummond Park'
 p147
-sg7
-S'GOLDIE PARK'
+sba(i__main__
+Park
 p148
-sba(i__main__
-Park
-p149
-(dp150
+(dp149
 g3
-S'43.55001'
-p151
+g4
 sg5
-S'-80.253131'
-p152
+S'-80.291961'
+p150
 sg7
-S'GOLDIE MILL PARK'
+S'Neighbourhood Park'
+p151
+sg9
+S'46 Imperial Road North'
+p152
+sg11
+S'43.528631'
 p153
+sg13
+S'Dunhill Place Park'
+p154
 sba(i__main__
 Park
-p154
-(dp155
+p155
+(dp156
 g3
-S'43.575131'
-p156
+g4
 sg5
-S'-80.266613'
+S'-80.295722'
 p157
 sg7
-S'GOLFVIEW PARK'
+S'Community Park'
 p158
-sba(i__main__
-Park
+sg9
+S'17 Elmira Road North'
 p159
-(dp160
-g3
-S'43.501717'
+sg11
+S'43.524973'
+p160
+sg13
+S'Earl Brimblecombe Park'
 p161
-sg5
-S'-80.193715'
-p162
-sg7
-S'GOSLING GARDENS PARK'
-p163
 sba(i__main__
 Park
-p164
-(dp165
+p162
+(dp163
 g3
-S'43.573131'
-p166
+g4
 sg5
-S'-80.219057'
-p167
+S'-80.227598'
+p164
 sg7
-S'GRANGE ROAD PARK'
+S'Regional Park'
+p165
+sg9
+S'800 Watson Parkway North'
+p166
+sg11
+S'43.580309'
+p167
+sg13
+S'Eastview Community Park'
 p168
 sba(i__main__
 Park
 p169
 (dp170
 g3
-S'43.558922'
+g4
+sg5
+S'-80.280771'
 p171
-sg5
-S'-80.242805'
+sg7
+S'Neighbourhood Park'
 p172
-sg7
-S'GREEN MEADOWS PARK'
+sg9
+S'395 Elmira Road South'
 p173
-sba(i__main__
-Park
+sg11
+S'43.517731'
 p174
-(dp175
-g3
-S'43.567204'
+sg13
+S'Elmira Park'
+p175
+sba(i__main__
+Park
 p176
+(dp177
+g3
+g4
 sg5
-S'-80.27926'
-p177
-sg7
-S'GUELPH CURLING CLUB'
+S'-80.220914'
 p178
-sba(i__main__
-Park
+sg7
+S'Community Park'
 p179
-(dp180
-g3
-S'43.586002'
+sg9
+S'259 Victoria Road South'
+p180
+sg11
+S'43.549786'
 p181
-sg5
-S'-80.254548'
+sg13
+S'Eramosa River Park'
 p182
-sg7
-S'GUELPH LAKE SPORTS FIELDS'
+sba(i__main__
+Park
 p183
-sba(i__main__
-Park
-p184
-(dp185
+(dp184
 g3
-S'43.511238'
-p186
+g4
 sg5
-S'-80.22655'
-p187
+S'-80.259588'
+p185
 sg7
-S'HANLON CREEK PARK'
+S'Regional Park'
+p186
+sg9
+S'81 London Road West'
+p187
+sg11
+S'43.54817'
 p188
+sg13
+S'Exhibition Park'
+p189
 sba(i__main__
 Park
-p189
-(dp190
+p190
+(dp191
 g3
-S'43.514152'
-p191
+g4
 sg5
-S'-80.213209'
+S'-80.25968'
 p192
 sg7
-S'HARTSLAND PARK'
+S'Neighbourhood Park'
 p193
-sba(i__main__
-Park
+sg9
+S'31 Ferndale Avenue'
 p194
-(dp195
-g3
-S'43.553583'
+sg11
+S'43.579639'
+p195
+sg13
+S'Ferndale Park'
 p196
-sg5
-S'-80.257511'
-p197
-sg7
-S'HERB MARKLE PARK'
-p198
 sba(i__main__
 Park
-p199
-(dp200
+p197
+(dp198
 g3
-S'43.544784'
-p201
+g4
 sg5
-S'-80.242424'
-p202
+S'-80.236323'
+p199
 sg7
-S'HERITAGE PARK'
+S'Community Park'
+p200
+sg9
+S'24 Franchetto Boulevard'
+p201
+sg11
+S'43.55729'
+p202
+sg13
+S'Franchetto Park'
 p203
 sba(i__main__
 Park
 p204
 (dp205
 g3
-S'43.552759'
+g4
+sg5
+S' -80.26705'
 p206
-sg5
-S'-80.27158'
+sg7
+S'Neighbourhood Park'
 p207
-sg7
-S'HIGHVIEW PARK'
+sg9
+S'63 Memorial Crescent'
 p208
-sba(i__main__
-Park
+sg11
+S'43.53528'
 p209
-(dp210
-g3
-S'43.549965'
+sg13
+S'Goldie Park'
+p210
+sba(i__main__
+Park
 p211
+(dp212
+g3
+g4
 sg5
-S'-80.241933'
-p212
-sg7
-S'HILLCREST PARK'
+S'-80.253131'
 p213
-sba(i__main__
-Park
+sg7
+S'Regional Park'
 p214
-(dp215
-g3
-S'43.516066'
+sg9
+S'70 Norwich Street'
+p215
+sg11
+S'43.55001'
 p216
-sg5
-S'-80.191041'
+sg13
+S'Goldie Mill Park'
 p217
-sg7
-S'HOLLAND CRES. PARK'
+sba(i__main__
+Park
 p218
-sba(i__main__
-Park
-p219
-(dp220
+(dp219
 g3
-S'43.518604'
-p221
+g4
 sg5
-S'-80.187424'
-p222
+S'-80.266613'
+p220
 sg7
-S'HOWDEN CRES PARK'
+S'Neighbourhood Park'
+p221
+sg9
+S'40 Golfview Road'
+p222
+sg11
+S'43.575131'
 p223
+sg13
+S'Golfview Park'
+p224
 sba(i__main__
 Park
-p224
-(dp225
+p225
+(dp226
 g3
-S'43.533507'
-p226
+g4
 sg5
-S'-80.26194'
+S'-80.193715'
 p227
 sg7
-S'HOWITT PARK'
+S'Neighbourhood Park'
 p228
-sba(i__main__
-Park
+sg9
+S'75 Gosling Gardens'
 p229
-(dp230
-g3
-S'43.529747'
+sg11
+S'43.501717'
+p230
+sg13
+S'Gosling Gardens Park'
 p231
-sg5
-S'-80.24645'
-p232
-sg7
-S'HUGH C. GUTHRIE  PARK'
-p233
 sba(i__main__
 Park
-p234
-(dp235
+p232
+(dp233
 g3
-S'43.545429'
-p236
+g4
 sg5
-S'-80.252163'
-p237
+S'-80.219057'
+p234
 sg7
-S'I.O.D.E. FOUNTAIN'
+S'Neighbourhood Park'
+p235
+sg9
+S'598 Grange Road'
+p236
+sg11
+S'43.573131'
+p237
+sg13
+S'Grange Road Park'
 p238
 sba(i__main__
 Park
 p239
 (dp240
 g3
-S'43.513701'
+g4
+sg5
+S'-80.242805'
 p241
-sg5
-S'-80.189086'
+sg7
+S'Community Park'
 p242
-sg7
-S'JENSON BOULEVARD PARK'
+sg9
+S'245 Stevenson Street North'
 p243
-sba(i__main__
-Park
+sg11
+S'43.558922'
 p244
-(dp245
-g3
-S'43.57052'
+sg13
+S'Green Meadows Park'
+p245
+sba(i__main__
+Park
 p246
+(dp247
+g3
+g4
 sg5
-S'-80.213714'
-p247
-sg7
-S'JOE VERONI PARK'
+S'-80.27926'
 p248
-sba(i__main__
-Park
+sg7
+S'Sports Fields  '
 p249
-(dp250
-g3
-S'43.547389'
+sg9
+S'816 Woolwich Street'
+p250
+sg11
+S'43.567204'
 p251
-sg5
-S'-80.245031'
+sg13
+S'Guelph Curling Club'
 p252
-sg7
-S'JOHN GALT PARK'
+sba(i__main__
+Park
 p253
-sba(i__main__
-Park
-p254
-(dp255
+(dp254
 g3
-S'43.506719'
-p256
+g4
 sg5
-S'-80.23386'
-p257
+S'-80.254548'
+p255
 sg7
-S'JOHN GAMBLE  PARK'
+S'Regional Park'
+p256
+sg9
+S'Woodlawn Road East (at the end)'
+p257
+sg11
+S'43.586002'
 p258
+sg13
+S'Guelph Lake Sports Fields'
+p259
 sba(i__main__
 Park
-p259
-(dp260
+p260
+(dp261
 g3
-S'43.535912'
-p261
+g4
 sg5
-S'-80.245256'
+S'-80.22655'
 p262
 sg7
-S'JOHN McCRAE GARDEN PARK'
+S'Community Park'
 p263
-sba(i__main__
-Park
+sg9
+S'505 Kortright Road West'
 p264
-(dp265
-g3
-S'43.551565'
+sg11
+S'43.511238'
+p265
+sg13
+S'Hanlon Creek Park'
 p266
-sg5
-S'-80.253062'
-p267
-sg7
-S'JOSEPH WOLFOND PARK (E) Arthur'
-p268
 sba(i__main__
 Park
-p269
-(dp270
+p267
+(dp268
 g3
-S'43.551282'
-p271
+g4
 sg5
-S'-80.255523'
-p272
+S'-80.213209'
+p269
 sg7
-S'JOSEPH WOLFOND PARK(W)Cardigan'
+S'Neighbourhood Park'
+p270
+sg9
+S'161 Rickson Avenue'
+p271
+sg11
+S'43.514152'
+p272
+sg13
+S'Hartsland Park'
 p273
 sba(i__main__
 Park
 p274
 (dp275
 g3
-S'43.551316'
+g4
+sg5
+S'-80.257511'
 p276
-sg5
-S'-80.275992'
+sg7
+S'Neighbourhood Park'
 p277
-sg7
-S'KIMBERLEY PARK'
+sg9
+S'175 Cardigan Street'
 p278
-sba(i__main__
-Park
+sg11
+S'43.553583'
 p279
-(dp280
-g3
-S'43.499383'
+sg13
+S'Herb Markle Park'
+p280
+sba(i__main__
+Park
 p281
+(dp282
+g3
+g4
 sg5
-S'-80.229899'
-p282
-sg7
-S'KORTRIGHT HILLS PARK'
+S'-80.242424'
 p283
-sba(i__main__
-Park
+sg7
+S'Regional Park'
 p284
-(dp285
-g3
-S'43.539426'
+sg9
+S'151 Wellington Street East'
+p285
+sg11
+S'43.544784'
 p286
-sg5
-S'-80.242512'
+sg13
+S'Heritage Park'
 p287
-sg7
-S'LAWN BOWLING GREENS'
+sba(i__main__
+Park
 p288
-sba(i__main__
-Park
-p289
-(dp290
+(dp289
 g3
-S'43.565202'
-p291
+g4
 sg5
-S'-80.220548'
-p292
+S'-80.27158'
+p290
 sg7
-S'LEE STREET PARK'
+S'Neighbourhood Park'
+p291
+sg9
+S'17 Highview Place'
+p292
+sg11
+S'43.552759'
 p293
+sg13
+S'Highview Park'
+p294
 sba(i__main__
 Park
-p294
-(dp295
+p295
+(dp296
 g3
-S'43.510009'
-p296
+g4
 sg5
-S'-80.197868'
+S'-80.241933'
 p297
 sg7
-S'LEWIS FARM PARK'
+S'Neighbourhood Park'
 p298
-sba(i__main__
-Park
+sg9
+S'27 Hillcrest Drive'
 p299
-(dp300
-g3
-S'43.547265'
+sg11
+S'43.549965'
+p300
+sg13
+S'Hillcrest Park'
 p301
-sg5
-S'-80.229775'
-p302
-sg7
-S'LYON PARK'
-p303
 sba(i__main__
 Park
-p304
-(dp305
+p302
+(dp303
 g3
-S'43.526229'
-p306
+g4
 sg5
-S'-80.213574'
-p307
+S'-80.191041'
+p304
 sg7
-S'MACALISTER PARK'
+S'Neighbourhood Park'
+p305
+sg9
+S'23 Holland Crescent'
+p306
+sg11
+S'43.516066'
+p307
+sg13
+S'Holland Cres. Park'
 p308
 sba(i__main__
 Park
 p309
 (dp310
 g3
-S'43.533025'
+g4
+sg5
+S'-80.187424'
 p311
-sg5
-S'-80.278312'
+sg7
+S'Community Park'
 p312
-sg7
-S'MARGARET GREENE PARK'
+sg9
+S'35 Howden Crescent'
 p313
-sba(i__main__
-Park
+sg11
+S'43.518604'
 p314
-(dp315
-g3
-S'43.538384'
+sg13
+S'Howden Cres Park'
+p315
+sba(i__main__
+Park
 p316
+(dp317
+g3
+g4
 sg5
-S'-80.241351'
-p317
-sg7
-S"MARIANNE'S PARK"
+S'-80.26194'
 p318
-sba(i__main__
-Park
+sg7
+S'Community Park'
 p319
-(dp320
-g3
-S'43.54368'
+sg9
+S'81 Beechwood Avenue'
+p320
+sg11
+S'43.533507'
 p321
-sg5
-S'-80.248708'
+sg13
+S'Howitt Park'
 p322
-sg7
-S'MARKET SQUARE'
+sba(i__main__
+Park
 p323
-sba(i__main__
-Park
-p324
-(dp325
+(dp324
 g3
-S'43.537989'
-p326
+g4
 sg5
-S'-80.289006'
-p327
+S'-80.24645'
+p325
 sg7
-S'MARKSAM PARK'
+S'Community Park'
+p326
+sg9
+S'111 Forest Street'
+p327
+sg11
+S'43.529747'
 p328
+sg13
+S'Hugh C. Guthrie  Park'
+p329
 sba(i__main__
 Park
-p329
-(dp330
+p330
+(dp331
 g3
-S'43.528795'
-p331
+g4
 sg5
-S'-80.220111'
+S'-80.252163'
 p332
 sg7
-S'MAYFIELD PARK'
+S'Regional Park'
 p333
-sba(i__main__
-Park
+sg9
+S'105 Norfolk Street'
 p334
-(dp335
-g3
-S'43.535195'
+sg11
+S'43.545429'
+p335
+sg13
+S'I.O.D.E. Fountain'
 p336
-sg5
-S'-80.267057'
-p337
-sg7
-S'MEMORIAL CRESCENT PARK'
-p338
 sba(i__main__
 Park
-p339
-(dp340
+p337
+(dp338
 g3
-S'43.552769'
-p341
+g4
 sg5
-S'-80.23531'
-p342
+S'-80.189086'
+p339
 sg7
-S'MICO VALERIOTE PARK'
+S'Neighbourhood Park'
+p340
+sg9
+S'11 Jenson Boulevard'
+p341
+sg11
+S'43.513701'
+p342
+sg13
+S'Jenson Boulevard Park'
 p343
 sba(i__main__
 Park
 p344
 (dp345
 g3
-S'43.525814'
+g4
+sg5
+S'-80.213714'
 p346
-sg5
-S'-80.296916'
+sg7
+S'Neighbourhood Park'
 p347
-sg7
-S'MITCHELL PARK'
+sg9
+S'245 Watson Parkway North'
 p348
-sba(i__main__
-Park
+sg11
+S'43.57052'
 p349
-(dp350
-g3
-S'43.502339'
+sg13
+S'Joe Veroni Park'
+p350
+sba(i__main__
+Park
 p351
+(dp352
+g3
+g4
 sg5
-S'-80.239156'
-p352
-sg7
-S'MOLLISON PARK'
+S'-80.245031'
 p353
-sba(i__main__
-Park
+sg7
+S'Regional Park'
 p354
-(dp355
-g3
-S'43.580871'
+sg9
+S'15-147 Woolwich Steet'
+p355
+sg11
+S'43.547389'
 p356
-sg5
-S'-80.225092'
+sg13
+S'John Galt Park'
 p357
-sg7
-S'MORNINGCREST PARK'
+sba(i__main__
+Park
 p358
-sba(i__main__
-Park
-p359
-(dp360
+(dp359
 g3
-S'43.544364'
-p361
+g4
 sg5
-S'-80.277008'
-p362
+S'-80.23386'
+p360
 sg7
-S'NORM JARY PARK'
+S'Neighbourhood Park'
+p361
+sg9
+S'594 Kortright Road West'
+p362
+sg11
+S'43.506719'
 p363
+sg13
+S'John Gamble  Park'
+p364
 sba(i__main__
 Park
-p364
-(dp365
+p365
+(dp366
 g3
-S'43.542855'
-p366
+g4
 sg5
-S'-80.249841'
+S'-80.245256'
 p367
 sg7
-S'NORTHUMBERLAND PARK'
+S'Regional Park'
 p368
-sba(i__main__
-Park
+sg9
+S'10 McCrae Boulevard'
 p369
-(dp370
-g3
-S'43.521983'
+sg11
+S'43.535912'
+p370
+sg13
+S'John Mccrae Garden Park'
 p371
-sg5
-S'-80.220838'
-p372
-sg7
-S'OAK STREET PARK'
-p373
 sba(i__main__
 Park
-p374
-(dp375
+p372
+(dp373
 g3
-S'43.568194'
-p376
+g4
 sg5
-S'-80.220201'
-p377
+S'-80.253062'
+p374
 sg7
-S"O'CONNOR LANE PARK"
+S'Neighbourhood Park'
+p375
+sg9
+S'230 Arthur Street North'
+p376
+sg11
+S'43.551565'
+p377
+sg13
+S'Joseph Wolfond Park (E) Arthur'
 p378
 sba(i__main__
 Park
 p379
 (dp380
 g3
-S'43.509072'
+g4
+sg5
+S'-80.255523'
 p381
-sg5
-S'-80.180602'
+sg7
+S'Neighbourhood Park'
 p382
-sg7
-S'ORIN REID PARK'
+sg9
+S'139 Cardigan Street'
 p383
-sba(i__main__
-Park
+sg11
+S'43.551282'
 p384
-(dp385
-g3
-S'43.540913'
+sg13
+S'Joseph Wolfond Park(W)Cardigan'
+p385
+sba(i__main__
+Park
 p386
+(dp387
+g3
+g4
 sg5
-S'-80.262648'
-p387
-sg7
-S'BLOSSOM JUNCTION PARK'
+S'-80.275992'
 p388
-sba(i__main__
-Park
+sg7
+S'Neighbourhood Park'
 p389
-(dp390
-g3
-S'43.561933'
+sg9
+S'40 Kimberley Drive'
+p390
+sg11
+S'43.551316'
 p391
-sg5
-S'-80.233803'
+sg13
+S'Kimberley Park'
 p392
-sg7
-S'PALERMO PARK'
+sba(i__main__
+Park
 p393
-sba(i__main__
-Park
-p394
-(dp395
+(dp394
 g3
-S'43.563033'
-p396
+g4
 sg5
-S'-80.233819'
-p397
+S'-80.229899'
+p395
 sg7
-S'PETER MISERSKY PARK'
+S'Neighbourhood Park'
+p396
+sg9
+S'165 Milson Crescent'
+p397
+sg11
+S'43.499383'
 p398
+sg13
+S'Kortright Hills Park'
+p399
 sba(i__main__
 Park
-p399
-(dp400
+p400
+(dp401
 g3
-S'43.514497'
-p401
+g4
 sg5
-S'-80.176131'
+S'-80.242512'
 p402
 sg7
-S'PINCH PARK'
+S'Lawn Bowling Club'
 p403
-sba(i__main__
-Park
+sg9
+S'124 Gordon Street'
 p404
-(dp405
-g3
-S'43.510452'
+sg11
+S'43.539426'
+p405
+sg13
+S'Lawn Bowling Greens'
 p406
-sg5
-S'-80.194176'
-p407
-sg7
-S'PINE RIDGE PARK'
-p408
 sba(i__main__
 Park
-p409
-(dp410
+p407
+(dp408
 g3
-S'43.511094'
-p411
+g4
 sg5
-S'-80.225022'
-p412
+S'-80.220548'
+p409
 sg7
-S'PRESERVATION PARK'
+S'Neighbourhood Park'
+p410
+sg9
+S'71 Lee Street'
+p411
+sg11
+S'43.565202'
+p412
+sg13
+S'Lee Street Park'
 p413
 sba(i__main__
 Park
 p414
 (dp415
 g3
-S'43.5462'
+g4
+sg5
+S'-80.197868'
 p416
-sg5
-S'-80.245324'
+sg7
+S'Neighbourhood Park'
 p417
-sg7
-S'PRIORY PARK (BLACKSMITH WATER FOUNTAIN)'
+sg9
+S'55 Revell Drive'
 p418
-sba(i__main__
-Park
+sg11
+S'43.510009'
 p419
-(dp420
-g3
-S'43.521246'
+sg13
+S'Lewis Farm Park'
+p420
+sba(i__main__
+Park
 p421
+(dp422
+g3
+g4
 sg5
-S'-80.223761'
-p422
-sg7
-S'RICKSON PARK'
+S'-80.229775'
 p423
-sba(i__main__
-Park
+sg7
+S'Community Park'
 p424
-(dp425
-g3
-S'43.560857'
+sg9
+S'299-301 York Road '
+p425
+sg11
+S'43.547265'
 p426
-sg5
-S'-80.27151'
+sg13
+S'Lyon Park'
 p427
-sg7
-S'RIVERSIDE PARK'
+sba(i__main__
+Park
 p428
-sba(i__main__
-Park
-p429
-(dp430
+(dp429
 g3
-S'43.522201'
-p431
+g4
 sg5
-S'-80.201732'
-p432
+S'-80.213574'
+p430
 sg7
-S'ROBIN ROAD PARK'
+S'Neighbourhood Park'
+p431
+sg9
+S'35 Hands Drive'
+p432
+sg11
+S'43.526229'
 p433
+sg13
+S'Macalister Park'
+p434
 sba(i__main__
 Park
-p434
-(dp435
+p435
+(dp436
 g3
-S'43.539263'
-p436
+g4
 sg5
-S'-80.242649'
+S'-80.278312'
 p437
 sg7
-S'ROYAL CITY PARK'
+S'Regional Park'
 p438
-sba(i__main__
-Park
+sg9
+S'80 Westwood Road'
 p439
-(dp440
-g3
-S'43.55543'
+sg11
+S'43.533025'
+p440
+sg13
+S'Margaret Greene Park'
 p441
-sg5
-S'-80.219003'
-p442
-sg7
-S'ROYAL CITY JAYCEES PARK'
-p443
 sba(i__main__
 Park
-p444
-(dp445
+p442
+(dp443
 g3
-S'43.574854'
-p446
+g4
 sg5
-S'-80.216871'
-p447
+S'-80.241351'
+p444
 sg7
-S'SEVERN DRIVE PARK'
+S'Conservation Lands'
+p445
+sg9
+S'176 Gordon Street'
+p446
+sg11
+S'43.538384'
+p447
+sg13
+S"Marianne'S Park"
 p448
 sba(i__main__
 Park
 p449
 (dp450
 g3
-S'43.533896'
+g4
+sg5
+S'-80.248708'
 p451
-sg5
-S'-80.253378'
+sg7
+S'Urban Square'
 p452
-sg7
-S'SILVERCREEK PARK (including water street park)'
+sg9
+S'1 Caden Street'
 p453
-sba(i__main__
-Park
+sg11
+S'43.54368'
 p454
-(dp455
-g3
-S'43.568285'
+sg13
+S'Market Square'
+p455
+sba(i__main__
+Park
 p456
+(dp457
+g3
+g4
 sg5
-S'-80.247803'
-p457
-sg7
-S'SKOV PARK'
+S'-80.289006'
 p458
-sba(i__main__
-Park
+sg7
+S'Neighbourhood Park'
 p459
-(dp460
-g3
-S'43.538986'
+sg9
+S'146 Marksam Road'
+p460
+sg11
+S'43.537989'
 p461
-sg5
-S'-80.276184'
+sg13
+S'Marksam Park'
 p462
-sg7
-S'SLEEMAN PARK'
+sba(i__main__
+Park
 p463
-sba(i__main__
-Park
-p464
-(dp465
+(dp464
 g3
-S'43.494347'
-p466
+g4
 sg5
-S'-80.194316'
-p467
+S'-80.220111'
+p465
 sg7
-S'SOUTH END COMMUNITY PARK'
+S'Neighbourhood Park'
+p466
+sg9
+S'19 Mayfield Avenue'
+p467
+sg11
+S'43.528795'
 p468
+sg13
+S'Mayfield Park'
+p469
 sba(i__main__
 Park
-p469
-(dp470
+p470
+(dp471
 g3
-S'43.519085'
-p471
+g4
 sg5
-S'-80.272315'
+S'-80.267057'
 p472
 sg7
-S'SPRINGDALE PARK'
+S'Neighbourhood Park'
 p473
-sba(i__main__
-Park
+sg9
+S'116 Memorial Crescent'
 p474
-(dp475
-g3
-S'43.551591'
+sg11
+S'43.535195'
+p475
+sg13
+S'Memorial Crescent Park'
 p476
-sg5
-S'-80.241829'
-p477
-sg7
-S"ST. GEORGE'S PARK"
-p478
 sba(i__main__
 Park
-p479
-(dp480
+p477
+(dp478
 g3
-S'43.566564'
-p481
+g4
 sg5
-S'-80.229041'
-p482
+S'-80.23531'
+p479
 sg7
-S'STARVIEW CRESCENT PARK'
+S'Neighbourhood Park'
+p480
+sg9
+S'235 Elizabeth Street'
+p481
+sg11
+S'43.552769'
+p482
+sg13
+S'Mico Valeriote Park'
 p483
 sba(i__main__
 Park
 p484
 (dp485
 g3
-S'43.511114'
+g4
+sg5
+S'-80.296916'
 p486
-sg5
-S'-80.235064'
+sg7
+S'Conservation Lands'
 p487
-sg7
-S'STEFFLER PARK'
+sg9
+S'70 Elmira Road North'
 p488
-sba(i__main__
-Park
+sg11
+S'43.525814'
 p489
-(dp490
-g3
-S'43.52243'
+sg13
+S'Mitchell Park'
+p490
+sba(i__main__
+Park
 p491
+(dp492
+g3
+g4
 sg5
-S'-80.281611'
-p492
-sg7
-S'STEPHANIE DRIVE PARK'
+S'-80.239156'
 p493
-sba(i__main__
-Park
+sg7
+S'Neighbourhood Park'
 p494
-(dp495
-g3
-S'43.542218'
+sg9
+S'85 Downey Road'
+p495
+sg11
+S'43.502339'
 p496
-sg5
-S'-80.264576'
+sg13
+S'Mollison Park'
 p497
-sg7
-S'SUFFOLK STREET PARK'
+sba(i__main__
+Park
 p498
-sba(i__main__
-Park
-p499
-(dp500
+(dp499
 g3
-S'43.534771'
-p501
+g4
 sg5
-S'-80.294815'
-p502
+S'-80.225092'
+p500
 sg7
-S'SUGARTREE WOODLOT'
+S'Neighbourhood Park'
+p501
+sg9
+S'15 Acker Street'
+p502
+sg11
+S'43.580871'
 p503
+sg13
+S'Morningcrest Park'
+p504
 sba(i__main__
 Park
-p504
-(dp505
+p505
+(dp506
 g3
-S'43.571663'
-p506
+g4
 sg5
-S'-80.229523'
+S'-80.277008'
 p507
 sg7
-S'SUMMIT RIDGE PARK'
+S'Community Park'
 p508
-sba(i__main__
-Park
+sg9
+S'22 Shelldale Crescent'
 p509
-(dp510
-g3
-S'43.538469'
+sg11
+S'43.544364'
+p510
+sg13
+S'Norm Jary Park'
 p511
-sg5
-S'-80.259401'
-p512
-sg7
-S'SUNNY ACRES PARK'
-p513
 sba(i__main__
 Park
-p514
-(dp515
+p512
+(dp513
 g3
-S'43.548096'
-p516
+g4
 sg5
-S'-80.251053'
-p517
+S'-80.249841'
+p514
 sg7
-S'TRAFALGAR SQUARE'
+S'Neighbourhood Park'
+p515
+sg9
+S'10 Northumberland Street'
+p516
+sg11
+S'43.542855'
+p517
+sg13
+S'Northumberland Park'
 p518
 sba(i__main__
 Park
 p519
 (dp520
 g3
-S'43.515248'
+g4
+sg5
+S'-80.220838'
 p521
-sg5
-S'-80.231687'
+sg7
+S'Neighbourhood Park'
 p522
-sg7
-S'UNIVERSITY VILLAGE PARK'
+sg9
+S'35 Oak Street'
 p523
-sba(i__main__
-Park
+sg11
+S'43.521983'
 p524
-(dp525
-g3
-S'43.516902'
+sg13
+S'Oak Street Park'
+p525
+sba(i__main__
+Park
 p526
+(dp527
+g3
+g4
 sg5
-S'-80.240828'
-p527
-sg7
-S'W.E. HAMILTON PARK'
+S'-80.220201'
 p528
-sba(i__main__
-Park
+sg7
+S'Community Park'
 p529
-(dp530
-g3
-S'43.542117'
+sg9
+S"31 O'Connor Lane"
+p530
+sg11
+S'43.568194'
 p531
-sg5
-S'-80.248834'
+sg13
+S"O'Connor Lane Park"
 p532
-sg7
-S'WATERLOO AVENUE PARK'
+sba(i__main__
+Park
 p533
-sba(i__main__
-Park
-p534
-(dp535
+(dp534
 g3
-S'43.57282'
-p536
+g4
 sg5
-S'-80.258034'
-p537
+S'-80.180602'
+p535
 sg7
-S'WAVERLEY PARK'
+S'Community Park'
+p536
+sg9
+S'120 Goodwin Drive'
+p537
+sg11
+S'43.509072'
 p538
+sg13
+S'Orin Reid Park'
+p539
 sba(i__main__
 Park
-p539
-(dp540
+p540
+(dp541
 g3
-S'43.507569'
-p541
+g4
 sg5
-S'-80.188402'
+S'-80.262648'
 p542
 sg7
-S'WESTMINSTER WOODS PARK'
+S'Regional Park'
 p543
-sba(i__main__
-Park
+sg9
+S'253 Paisley Street'
 p544
-(dp545
-g3
-S'43.5157'
+sg11
+S'43.540913'
+p545
+sg13
+S'Blossom Junction Park'
 p546
-sg5
-S'-80.283113'
-p547
-sg7
-S'WHITELAW GARDENS PARK'
-p548
 sba(i__main__
 Park
-p549
-(dp550
+p547
+(dp548
 g3
-S'43.579505'
-p551
+g4
 sg5
-S'-80.267329'
-p552
+S'-80.233803'
+p549
 sg7
-S'WILSON FARM PARK'
+S'Neighbourhood Park'
+p550
+sg9
+S'34 Palermo Crescent'
+p551
+sg11
+S'43.561933'
+p552
+sg13
+S'Palermo Park'
 p553
 sba(i__main__
 Park
 p554
 (dp555
 g3
-S'43.570702'
+g4
+sg5
+S'-80.233819'
 p556
-sg5
-S'-80.261135'
+sg7
+S'Community Park'
 p557
-sg7
-S'WINDSOR PARK'
+sg9
+S'122 Hadati Road/ 35 Mountford Drive'
 p558
-sba(i__main__
-Park
+sg11
+S'43.563033'
 p559
-(dp560
-g3
-S'43.508079'
+sg13
+S'Peter Misersky Park'
+p560
+sba(i__main__
+Park
 p561
+(dp562
+g3
+g4
 sg5
-S'-80.244988'
-p562
-sg7
-S'WOODLAND GLEN PARK'
+S'-80.176131'
 p563
-sba(i__main__
-Park
+sg7
+S'Neighbourhood Park'
 p564
-(dp565
-g3
-S'43.521603'
+sg9
+S'101 Baxter Drive'
+p565
+sg11
+S'43.514497'
 p566
-sg5
-S'-80.217951'
+sg13
+S'Pinch Park'
 p567
-sg7
-S'YEWHOLME PARK'
+sba(i__main__
+Park
 p568
-sba(i__main__
-Park
-p569
-(dp570
+(dp569
 g3
-S'43.541183'
-p571
+g4
 sg5
-S'-80.240505'
-p572
+S'-80.194176'
+p570
 sg7
-S'YORK ROAD PARK'
+S'Community Park'
+p571
+sg9
+S'87 Pine Ridge Drive'
+p572
+sg11
+S'43.510452'
 p573
+sg13
+S'Pine Ridge Park'
+p574
 sba(i__main__
 Park
-p574
-(dp575
+p575
+(dp576
 g3
-S'43.504807'
-p576
+g4
 sg5
-S'-80.231432'
+S'-80.225022'
 p577
 sg7
-S'HANLON ROAD - HYDRO CORRIDOR'
+S'Conservation Lands'
 p578
-sba(i__main__
-Park
+sg9
+S'226 Kortright Road West'
 p579
-(dp580
-g3
-S'43.548082'
+sg11
+S'43.511094'
+p580
+sg13
+S'Preservation Park'
 p581
-sg5
-S'-80.267138'
-p582
-sg7
-S'Our Lady of Lourdes Catholic High School'
-p583
 sba(i__main__
 Park
-p584
-(dp585
+p582
+(dp583
 g3
-S'43.51938'
-p586
+g4
 sg5
-S'-80.223048'
-p587
+S'-80.245324'
+p584
 sg7
-S'St. Michael Catholic School'
+S'Regional Park'
+p585
+sg9
+S'140 MacDonell Street'
+p586
+sg11
+S'43.5462'
+p587
+sg13
+S'Priory Park (Blacksmith Water Fountain)'
 p588
 sba(i__main__
 Park
 p589
 (dp590
 g3
-S'43.560009'
+g4
+sg5
+S'-80.223761'
 p591
-sg5
-S'-80.234163'
+sg7
+S'Neighbourhood Park'
 p592
-sg7
-S'St. James Catholic High School'
+sg9
+S'25 Rickson Avenue'
 p593
-sba(i__main__
-Park
+sg11
+S'43.521246'
 p594
-(dp595
-g3
-S'43.559605'
+sg13
+S'Rickson Park'
+p595
+sba(i__main__
+Park
 p596
+(dp597
+g3
+g4
 sg5
-S'-80.234206'
-p597
-sg7
-S'St. John Catholic School'
+S'-80.27151'
 p598
-sba(i__main__
-Park
+sg7
+S'Regional Park'
 p599
-(dp600
-g3
-S'43.525721'
+sg9
+S'709 Woolwich Street'
+p600
+sg11
+S'43.560857'
 p601
-sg5
-S'-80.281724'
+sg13
+S'Riverside Park'
 p602
-sg7
-S'St. Francis of Assisi Catholic School'
+sba(i__main__
+Park
 p603
-sba(i__main__
-Park
-p604
-(dp605
+(dp604
 g3
-S'43.494293'
-p606
+g4
 sg5
-S'-80.194391'
-p607
+S'-80.201732'
+p605
 sg7
-S'Bishop MacDonald Catholic High School'
+S'Neighbourhood Park'
+p606
+sg9
+S'74 Robin Road'
+p607
+sg11
+S'43.522201'
 p608
+sg13
+S'Robin Road Park'
+p609
 sba(i__main__
 Park
-p609
-(dp610
+p610
+(dp611
 g3
-S'43.526001'
-p611
+g4
 sg5
-S'-80.231502'
+S'-80.242649'
 p612
 sg7
-S'OMAFRA'
+S'Regional Park'
 p613
+sg9
+S'119 Gordon Street'
+p614
+sg11
+S'43.539263'
+p615
+sg13
+S'Royal City Park'
+p616
 sba(i__main__
 Park
-p614
-(dp615
+p617
+(dp618
 g3
-S'43.56385'
-p616
+g4
+sg5
+S'-80.219003'
+p619
+sg7
+S'Community Park'
+p620
+sg9
+S'785 York Road'
+p621
+sg11
+S'43.55543'
+p622
+sg13
+S'Royal City Jaycees Park'
+p623
+sba(i__main__
+Park
+p624
+(dp625
+g3
+g4
+sg5
+S'-80.216871'
+p626
+sg7
+S'Community Park'
+p627
+sg9
+S'125 Severn Drive'
+p628
+sg11
+S'43.574854'
+p629
+sg13
+S'Severn Drive Park'
+p630
+sba(i__main__
+Park
+p631
+(dp632
+g3
+g4
+sg5
+S'-80.253378'
+p633
+sg7
+S'Community Park'
+p634
+sg9
+S'142 Edinburgh Road South'
+p635
+sg11
+S'43.533896'
+p636
+sg13
+S'Silvercreek Park (Including Water Street Park)'
+p637
+sba(i__main__
+Park
+p638
+(dp639
+g3
+g4
+sg5
+S'-80.247803'
+p640
+sg7
+S'Community Park'
+p641
+sg9
+S'580 Eramosa Road'
+p642
+sg11
+S'43.568285'
+p643
+sg13
+S'Skov Park'
+p644
+sba(i__main__
+Park
+p645
+(dp646
+g3
+g4
+sg5
+S'-80.276184'
+p647
+sg7
+S'Community Park'
+p648
+sg9
+S'80 Sleeman Avenue'
+p649
+sg11
+S'43.538986'
+p650
+sg13
+S'Sleeman Park'
+p651
+sba(i__main__
+Park
+p652
+(dp653
+g3
+g4
+sg5
+S'-80.194316'
+p654
+sg7
+S'Regional Park'
+p655
+sg9
+S'25 Poppy Drive'
+p656
+sg11
+S'43.494347'
+p657
+sg13
+S'South End Community Park'
+p658
+sba(i__main__
+Park
+p659
+(dp660
+g3
+g4
+sg5
+S'-80.272315'
+p661
+sg7
+S'Community Park'
+p662
+sg9
+S'38 Springdale Boulevard'
+p663
+sg11
+S'43.519085'
+p664
+sg13
+S'Springdale Park'
+p665
+sba(i__main__
+Park
+p666
+(dp667
+g3
+g4
+sg5
+S'-80.241829'
+p668
+sg7
+S'Community Park'
+p669
+sg9
+S'40 Metcalfe Street'
+p670
+sg11
+S'43.551591'
+p671
+sg13
+S"St. George'S Park"
+p672
+sba(i__main__
+Park
+p673
+(dp674
+g3
+g4
+sg5
+S'-80.229041'
+p675
+sg7
+S'Neighbourhood Park'
+p676
+sg9
+S'70 Starview Crescent'
+p677
+sg11
+S'43.566564'
+p678
+sg13
+S'Starview Crescent Park'
+p679
+sba(i__main__
+Park
+p680
+(dp681
+g3
+g4
+sg5
+S'-80.235064'
+p682
+sg7
+S'Neighbourhood Park'
+p683
+sg9
+S'215 Ironwood Road'
+p684
+sg11
+S'43.511114'
+p685
+sg13
+S'Steffler Park'
+p686
+sba(i__main__
+Park
+p687
+(dp688
+g3
+g4
+sg5
+S'-80.281611'
+p689
+sg7
+S'Neighbourhood Park'
+p690
+sg9
+S'275 Stephanie Drive'
+p691
+sg11
+S'43.52243'
+p692
+sg13
+S'Stephanie Drive Park'
+p693
+sba(i__main__
+Park
+p694
+(dp695
+g3
+g4
+sg5
+S'-80.264576'
+p696
+sg7
+S'Neighbourhood Park'
+p697
+sg9
+S'265 Suffolk Street West'
+p698
+sg11
+S'43.542218'
+p699
+sg13
+S'Suffolk Street Park'
+p700
+sba(i__main__
+Park
+p701
+(dp702
+g3
+g4
+sg5
+S'-80.294815'
+p703
+sg7
+S'Conservation Lands'
+p704
+sg9
+S'381 Westwood Road'
+p705
+sg11
+S'43.534771'
+p706
+sg13
+S'Sugartree Woodlot'
+p707
+sba(i__main__
+Park
+p708
+(dp709
+g3
+g4
+sg5
+S'-80.229523'
+p710
+sg7
+S'Neighbourhood Park'
+p711
+sg9
+S'50 Summit Ridge Drive'
+p712
+sg11
+S'43.571663'
+p713
+sg13
+S'Summit Ridge Park'
+p714
+sba(i__main__
+Park
+p715
+(dp716
+g3
+g4
+sg5
+S'-80.259401'
+p717
+sg7
+S'Neighbourhood Park'
+p718
+sg9
+S'45 Edinburgh Road North'
+p719
+sg11
+S'43.538469'
+p720
+sg13
+S'Sunny Acres Park'
+p721
+sba(i__main__
+Park
+p722
+(dp723
+g3
+g4
+sg5
+S'-80.251053'
+p724
+sg7
+S'Urban Square'
+p725
+sg9
+S'157 Woolwich Street'
+p726
+sg11
+S'43.548096'
+p727
+sg13
+S'Trafalgar Square'
+p728
+sba(i__main__
+Park
+p729
+(dp730
+g3
+g4
+sg5
+S'-80.231687'
+p731
+sg7
+S'Community Park'
+p732
+sg9
+S'93 Ironwood Road'
+p733
+sg11
+S'43.515248'
+p734
+sg13
+S'University Village Park'
+p735
+sba(i__main__
+Park
+p736
+(dp737
+g3
+g4
+sg5
+S'-80.240828'
+p738
+sg7
+S'Community Park'
+p739
+sg9
+S'565 Scottsdale Drive'
+p740
+sg11
+S'43.516902'
+p741
+sg13
+S'W.E. Hamilton Park'
+p742
+sba(i__main__
+Park
+p743
+(dp744
+g3
+g4
+sg5
+S'-80.248834'
+p745
+sg7
+S'Community Park'
+p746
+sg9
+S'1 Gordon Street'
+p747
+sg11
+S'43.542117'
+p748
+sg13
+S'Waterloo Avenue Park'
+p749
+sba(i__main__
+Park
+p750
+(dp751
+g3
+g4
+sg5
+S'-80.258034'
+p752
+sg7
+S'Community Park'
+p753
+sg9
+S'76 Balmoral Drive'
+p754
+sg11
+S'43.57282'
+p755
+sg13
+S'Waverley Park'
+p756
+sba(i__main__
+Park
+p757
+(dp758
+g3
+g4
+sg5
+S'-80.188402'
+p759
+sg7
+S'Community Park'
+p760
+sg9
+S'146 Clairfields Drive East'
+p761
+sg11
+S'43.507569'
+p762
+sg13
+S'Westminster Woods Park'
+p763
+sba(i__main__
+Park
+p764
+(dp765
+g3
+g4
+sg5
+S'-80.283113'
+p766
+sg7
+S'Neighbourhood Park'
+p767
+sg9
+S'491 Whitelaw Road'
+p768
+sg11
+S'43.5157'
+p769
+sg13
+S'Whitelaw Gardens Park'
+p770
+sba(i__main__
+Park
+p771
+(dp772
+g3
+g4
+sg5
+S'-80.267329'
+p773
+sg7
+S'Neighbourhood Park'
+p774
+sg9
+S'80 Simmonds Drive'
+p775
+sg11
+S'43.579505'
+p776
+sg13
+S'Wilson Farm Park'
+p777
+sba(i__main__
+Park
+p778
+(dp779
+g3
+g4
+sg5
+S'-80.261135'
+p780
+sg7
+S'Neighbourhood Park'
+p781
+sg9
+S'74 Waverley Drive'
+p782
+sg11
+S'43.570702'
+p783
+sg13
+S'Windsor Park'
+p784
+sba(i__main__
+Park
+p785
+(dp786
+g3
+g4
+sg5
+S'-80.244988'
+p787
+sg7
+S'Community Park'
+p788
+sg9
+S'30 Woodland Glen Drive'
+p789
+sg11
+S'43.508079'
+p790
+sg13
+S'Woodland Glen Park'
+p791
+sba(i__main__
+Park
+p792
+(dp793
+g3
+g4
+sg5
+S'-80.217951'
+p794
+sg7
+S'Neighbourhood Park'
+p795
+sg9
+S'20 Yewholme Drive'
+p796
+sg11
+S'43.521603'
+p797
+sg13
+S'Yewholme Park'
+p798
+sba(i__main__
+Park
+p799
+(dp800
+g3
+g4
+sg5
+S'-80.240505'
+p801
+sg7
+S'Community Park'
+p802
+sg9
+S'85 York Road'
+p803
+sg11
+S'43.541183'
+p804
+sg13
+S'York Road Park'
+p805
+sba(i__main__
+Park
+p806
+(dp807
+g3
+g4
+sg5
+S'-80.231432'
+p808
+sg7
+S'Leash Free Zone'
+p809
+sg9
+S'594 Hanlon Road'
+p810
+sg11
+S'43.504807'
+p811
+sg13
+S'Hanlon Road - Hydro Corridor'
+p812
+sba(i__main__
+Park
+p813
+(dp814
+g3
+g4
+sg5
+S'-80.267138'
+p815
+sg7
+S'Sports Fields '
+p816
+sg9
+S'54 Westmount Road'
+p817
+sg11
+S'43.548082'
+p818
+sg13
+S'Our Lady Of Lourdes Catholic High School'
+p819
+sba(i__main__
+Park
+p820
+(dp821
+g3
+g4
+sg5
+S'-80.223048'
+p822
+sg7
+S'Sports Fields'
+p823
+sg9
+S'9 McElderry Road'
+p824
+sg11
+S'43.51938'
+p825
+sg13
+S'St. Michael Catholic School'
+p826
+sba(i__main__
+Park
+p827
+(dp828
+g3
+g4
+sg5
+S'-80.234163'
+p829
+sg7
+S'Sports Fields'
+p830
+sg9
+S'57 Victoria Road North'
+p831
+sg11
+S'43.560009'
+p832
+sg13
+S'St. James Catholic High School'
+p833
+sba(i__main__
+Park
+p834
+(dp835
+g3
+g4
+sg5
+S'-80.234206'
+p836
+sg7
+S'Sports Fields'
+p837
+sg9
+V\u200b63 Victoria Road North
+p838
+sg11
+S'43.559605'
+p839
+sg13
+S'St. John Catholic School'
+p840
+sba(i__main__
+Park
+p841
+(dp842
+g3
+g4
+sg5
+S'-80.281724'
+p843
+sg7
+S'Sports Fields'
+p844
+sg9
+S'287 Imperial Road South'
+p845
+sg11
+S'43.525721'
+p846
+sg13
+S'St. Francis Of Assisi Catholic School'
+p847
+sba(i__main__
+Park
+p848
+(dp849
+g3
+g4
+sg5
+S'-80.194391'
+p850
+sg7
+S'Sports Fields'
+p851
+sg9
+S'200 Clair Road West'
+p852
+sg11
+S'43.494293'
+p853
+sg13
+S'Bishop Macdonald Catholic High School'
+p854
+sba(i__main__
+Park
+p855
+(dp856
+g3
+g4
+sg5
+S'-80.231502'
+p857
+sg7
+S'Sports Fields'
+p858
+sg9
+S'213-217 South Ring Road West'
+p859
+sg11
+S'43.526001'
+p860
+sg13
+S'Omafra'
+p861
+sba(i__main__
+Park
+p862
+(dp863
+g3
+g4
 sg5
 S'-80.20792'
-p617
+p864
 sg7
+S'Sports Fields'
+p865
+sg9
+S'57 Watson Pkwy S'
+p866
+sg11
+S'43.56385'
+p867
+sg13
 S'Royal Canadian Legion'
-p618
+p868
 sba.

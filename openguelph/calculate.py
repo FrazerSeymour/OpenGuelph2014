@@ -85,13 +85,11 @@ def getPath(route, depart_name, depart_time, destination):
 
 
 
-def getRoute(destination, routes):
-    route_prefix = destination.getRoutes()[0]
-
+def getRoute(prefix, routes):
     # Find possible routes.
     possibilities = []
     for route in routes:
-        if route_prefix in route.getName():
+        if prefix in route.getName():
             possibilities.append(route)
 
    # If only a weekday bus.
@@ -117,56 +115,3 @@ def getRoute(destination, routes):
             for possibility in possibilities:
                 if "weekday" in possibility.getName():
                     return possibility
-
-
-
-def openData():
-    f = open("./resources/parks.pickle", 'r')
-    parks = load(f)
-    f.close()
-
-    f = open("./resources/routes.pickle", 'r')
-    routes = load(f)
-    f.close()
-
-    f = open("./resources/stops.pickle", 'r')
-    stops = load(f)
-    f.close()
-    
-    return parks, routes, stops
-
-
-
-if __name__ == "__main__":
-    parks, routes, stops = openData()
-
-    # This will be pre-handled by the website.
-    user_input = raw_input("Type in the name of a park: ")
-    user_park = False
-    for park in parks:
-        if park.getName() == user_input.upper():
-            user_park = park
-
-    # Determine the closest bus stop.
-    park_lat = float(user_park.getLat())
-    park_lon = float(user_park.getLon())
-    user_stop = getNearestStop(park_lat, park_lon, stops)
-
-    # Determine the bus route.
-    user_route = getRoute(user_stop, routes)
-
-    # Determine the next departure times.
-    uc_time = getNextTime("University Centre", user_route)
-    dt_time = getNextTime("Guelph Central Station", user_route)
-
-    # Determine the routes paths.
-    if uc_time != False:
-        uc_path = getPath(user_route, "University Centre", uc_time, user_stop)
-    if dt_time != False:
-        dt_path = getPath(user_route, "Guelph Central Station", dt_time, user_stop)
-
-    # Testing
-    print "Closest Stop:", user_stop.getNames()[0]
-    print "Route:", user_route.getName()
-    print "Departure from the UC:", uc_time
-    print "Departure from Downtown:", dt_time
