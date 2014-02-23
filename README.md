@@ -30,3 +30,13 @@ Saturday, 7:15 PM
   Whew! There's light at the end of the tunnel!
 
   I have started working through bus route calculations in the `calculations` script. At present, I can locate the nearest bus stop to a latitude/longitude pair and determine when the next bus leaves from a specified stop. (Any stop, in theory, but I only care about the UC and Guelph Central)
+
+Saturday, 10:45 PM
+---
+  Past the halfway point, beginning to feel it. A bit behind schedule, but the back-end is close enough to done I can justify starting the front end.
+
+  At present I can find the closest bus stop to a co-ordinate, find a bus route that reaches it, say when the next bus leaves, and determine what stops are along the way. However, the data my code generates at present is correct but often far from efficient. I'll have to go back and fix that later.
+
+  I reverted the bus stop information to the official file, and tweaked my code to work around it.
+
+  

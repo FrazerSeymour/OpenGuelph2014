@@ -30,51 +30,34 @@ def getNearestStop(lat, lon, stops):
 
 
 
-def openData():
-    f = open("./resources/parks.pickle", 'r')
-    parks = load(f)
-    f.close()
-
-    f = open("./resources/routes.pickle", 'r')
-    routes = load(f)
-    f.close()
-
-    f = open("./resources/stops.pickle", 'r')
-    stops = load(f)
-    f.close()
-    
-    return parks, routes, stops
-
-
-
 def getNextTime(stop, route):
-    time = datetime.now().time()
-    current_hr = time.hour
-    current_min = time.minute
-    current_sec = time.second
+    time = datetime.now()
 
-    distance = [24, 60, 60]
+    current_yr = time.year
+    current_month = time.month
+    current_day = time.day
+
+    fmt = "%H:%M:%S"
+
+    distance = 84600
     best_time = False
 
     for route_stop in route.getRoute():
         stop_name = route_stop[0]
+        
         stop_time = route_stop[2]
         split_time = stop_time.split(':')
-
         stop_hr = int(split_time[0])
         stop_min = int(split_time[1])
         stop_sec = int(split_time[2])
-        
-        distance_hr = stop_hr - current_hr
-        distance_min = stop_min - current_min
-        distance_sec = stop_sec - current_sec
+        stop_time = datetime(year = current_yr, month = current_month, day = current_day, hour = stop_hr, minute = stop_min)
 
-        if stop_name == stop and (distance_hr > 0 or (distance_hr == current_hr and distance_min >= 0)):
-                if distance_hr <= distance[0] or (distance_hr == distance[0] and distance_min <= distance[1]):
-                    distance = [distance_hr, distance_min, distance_sec]
-                    best_time = stop_time
-                    
-                    
+        diff = stop_time - time
+
+        if stop_name == stop and diff.total_seconds() > 0 and diff.total_seconds() < distance:
+            distance = diff.total_seconds()
+            best_time = route_stop[2]
+
     return best_time
 
 
@@ -102,39 +85,88 @@ def getPath(route, depart_name, depart_time, destination):
 
 
 
+def getRoute(destination, routes):
+    route_prefix = destination.getRoutes()[0]
+
+    # Find possible routes.
+    possibilities = []
+    for route in routes:
+        if route_prefix in route.getName():
+            possibilities.append(route)
+
+   # If only a weekday bus.
+    if len(possibilities) == 1:
+        return possibilities[0]
+
+    # Else:
+    else:
+        date = datetime.today()
+        day = date.weekday()
+
+        if day == 0:
+            for possibility in possibilities:
+                if "sunday" in possibility.getName():
+                    return possibility
+
+        elif day == 6:
+            for possibility in possibilities:
+                if "saturday" in possibility.getName():
+                    return possibility
+
+        else:
+            for possibility in possibilities:
+                if "weekday" in possibility.getName():
+                    return possibility
+
+
+
+def openData():
+    f = open("./resources/parks.pickle", 'r')
+    parks = load(f)
+    f.close()
+
+    f = open("./resources/routes.pickle", 'r')
+    routes = load(f)
+    f.close()
+
+    f = open("./resources/stops.pickle", 'r')
+    stops = load(f)
+    f.close()
+    
+    return parks, routes, stops
+
+
+
 if __name__ == "__main__":
     parks, routes, stops = openData()
 
+    # This will be pre-handled by the website.
     user_input = raw_input("Type in the name of a park: ")
     user_park = False
     for park in parks:
         if park.getName() == user_input.upper():
             user_park = park
-            
-    if user_park != False:
-        print user_park.getName(), user_park.getLat(), user_park.getLon()
 
+    # Determine the closest bus stop.
     park_lat = float(user_park.getLat())
     park_lon = float(user_park.getLon())
-    
     user_stop = getNearestStop(park_lat, park_lon, stops)
 
+    # Determine the bus route.
+    user_route = getRoute(user_stop, routes)
 
-    if user_stop:
-        uc_time = getNextTime("University Centre", routes[9])
-        if uc_time != False:
-            print "Next bus from University Centre is at", uc_time
+    # Determine the next departure times.
+    uc_time = getNextTime("University Centre", user_route)
+    dt_time = getNextTime("Guelph Central Station", user_route)
 
-        uc_path = getPath(routes[9], "University Centre", uc_time, user_stop)
-        if uc_path != []:
-            for stop in uc_path:
-                print stop[0], stop[1]
+    # Determine the routes paths.
+    if uc_time != False:
+        uc_path = getPath(user_route, "University Centre", uc_time, user_stop)
+    if dt_time != False:
+        dt_path = getPath(user_route, "Guelph Central Station", dt_time, user_stop)
 
-        dt_time = getNextTime("Guelph Central Station", routes[9])
-        if dt_time != False:
-            print "Next bus from Guelph Central Station is at", dt_time
-        
-        dt_path = getPath(routes[9], "Guelph Central Station", dt_time, user_stop)
-        if dt_path != []:
-            for stop in dt_path:
-                print stop[0], stop[1]
+    # Testing
+    print "Closest Stop:", user_stop.getNames()[0]
+    print "Route:", user_route.getName()
+    print "Departure from the UC:", uc_time
+    print "Departure from Downtown:", dt_time
