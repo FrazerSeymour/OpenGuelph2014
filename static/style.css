@@ -8,8 +8,7 @@ a {
 .header {
 		color: #fff;
 		background: #00a7e5;
-		width: 100%;
-		vertical-align: center;
+		margin: auto;
 		text-align: center;
 		font-family: "sans";
 		padding: 1%;
@@ -19,7 +18,7 @@ a {
 		font-family: "sans";
 		color: #fff;
 		background: #323a45;
-		width: 100%;
+		margin: auto;
 		text-align: center;
 		padding: 2%;
 }

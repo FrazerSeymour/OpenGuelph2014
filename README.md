@@ -54,3 +54,9 @@ Sunday, 7:30 AM
 Sunday, 8:30 AM
 ---
   Gah! Almost done! Front end is looking great, now just need to implement the "Do Something" page.
+
+Sunday, 9:45 AM
+---
+  Well, here it is. The last commit. I'm stopping myself now before I break something, because I'll be demoing my development version and Vim has been acting up so I'm not taking any chances.
+
+  Demos start at 10, so here goes!

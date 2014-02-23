@@ -12,7 +12,7 @@
 
 				<div class="place_nav" style="background: #ea6d24">
 						{% if dt_time != False %}
-						<a href="/dt_path/{{ place.getName() }}/"><h3>Next bus from Guelph Central Station: {{ place.getDtRoute().getName() }} at {{ dt_time }}</h3></a>
+						<a href="/dt_path/{{ place.getName() }}/"><h3>Next bus from Guelph Central Station: {{ place.getDtRoute().getName()}} at {{ dt_time }}</h3></a>
 						{% else %}
 						<h3>Navigation unavailable from Guelph Central Station</h3>
 						{% endif %}

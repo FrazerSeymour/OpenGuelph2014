@@ -11,12 +11,12 @@ def landing():
 
 @app.route('/go/')
 def go():
-    return render_template("go.html", places=places)
+    return render_template("go.html", places=places, title="Go Somewhere!")
 
 
 @app.route('/do/')
 def do():
-    return render_template("go.html", places=events)
+    return render_template("go.html", places=events, title="Do Something!")
 
 
 @app.route('/place/<placeName>/')
