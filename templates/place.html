@@ -4,12 +4,13 @@
 						<h1>{{ place.getName() }}</h1>
 						<h2>{{ place.getSummary() }}</h2>
 				</div>
-				<h3>{{ place.getDescription() }}</h3>
+
+				<h2 class="place_description">{{ place.getDescription() }}</h2>
 
 
 				<div class="place_nav"></div>
 
-				<a href="#"><div class="place_nav" style="background: #ea6d24">
+				<a href="/{{ place.getName() }}/dt_path/"><div class="place_nav" style="background: #ea6d24">
 						{% if dt_time != False %}
 						<h3>Next bus from Guelph Central Station: {{ dt_time }}</h3>
 						{% else %}
@@ -19,13 +20,13 @@
 
 				<div class="place_nav"></div>
 
-				<a href="#"><div class="place_nav" style="background: #00a7e5">
+				<a href="http://maps.google.com/?q={{ place.getName() }}"><div class="place_nav" style="background: #00a7e5">
 						<h3>Google Maps directions to {{ place.getAddress() }}</h3>
 				</div></a>
 
 				<div class="place_nav"></div>
 
-				<a href="#"><div class="place_nav" style="background: #7b246d">
+				<a href="/{{ place.getName() }}/uc_path/"><div class="place_nav" style="background: #7b246d">
 						{% if uc_time != False %}
 						<h3>Next bus from University Centre: {{ uc_time }}</h3>
 						{% else %}
