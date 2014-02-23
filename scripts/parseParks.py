@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
         summary = child.find("ParkType").text
         address = child.find("Address").text
-        description = ""
+        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet molestie libero. Vivamus ullamcorper est vel blandit pellentesque. Sed eu purus ac neque fermentum eleifend et eget velit. Ut neque ipsum, vehicula et tortor ut, imperdiet tempus dui. Cras scelerisque elementum commodo."
         lat = child.find("Latitude").text
         lon = child.find("Longitude").text
 

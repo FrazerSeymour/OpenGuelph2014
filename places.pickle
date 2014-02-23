@@ -5,7 +5,7 @@ p1
 (dp2
 S'description'
 p3
-S''
+S'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet molestie libero. Vivamus ullamcorper est vel blandit pellentesque. Sed eu purus ac neque fermentum eleifend et eget velit. Ut neque ipsum, vehicula et tortor ut, imperdiet tempus dui. Cras scelerisque elementum commodo.'
 p4
 sS'uc_path'
 p5
@@ -79079,67 +79079,67 @@ sg5
 (lp43404
 S'University Centre'
 p43405
-aS'8:15:00'
+aS'8:55:00'
 p43406
 aa(lp43407
 S'University Dep'
 p43408
-aS'8:20:00'
+aS'9:00:00'
 p43409
 aa(lp43410
 S'Stone Rd. W. at Gordon St.'
 p43411
-aS'8:20:00'
+aS'9:00:00'
 p43412
 aa(lp43413
 S'Stone Rd. W. at Fire Hall'
 p43414
-aS'8:20:00'
+aS'9:00:00'
 p43415
 aa(lp43416
 S'Stone Rd. W. at Zellers'
 p43417
-aS'8:20:00'
+aS'9:00:00'
 p43418
 aa(lp43419
 S'583 Edinburgh Rd. S.'
 p43420
-aS'8:25:00'
+aS'9:05:00'
 p43421
 aa(lp43422
 S'685 Edinburgh Rd. S.'
 p43423
-aS'8:25:00'
+aS'9:05:00'
 p43424
 aa(lp43425
 S'Kortright Rd. at Edinburgh Rd. S.'
 p43426
-aS'8:29:00'
+aS'9:09:00'
 p43427
 aa(lp43428
 S'Kortright Rd. at Rickson Ave.'
 p43429
-aS'8:29:00'
+aS'9:09:00'
 p43430
 aa(lp43431
 S'Kortright Rd. opposite Yewholme Dr.'
 p43432
-aS'8:29:00'
+aS'9:09:00'
 p43433
 aa(lp43434
 S'Gordon St. at Kortright Rd.'
 p43435
-aS'8:29:00'
+aS'9:12:00'
 p43436
 aa(lp43437
 S'Gordon St. at Hands Dr.'
 p43438
-aS'8:32:00'
+aS'9:12:00'
 p43439
 aa(lp43440
 S'Gordon St. at Monticello Cres.'
 p43441
-aS'8:32:00'
+aS'9:12:00'
 p43442
 aasg13
 F-80.220111
@@ -82343,252 +82343,252 @@ p45257
 aS'8:12:00'
 p45258
 aa(lp45259
-g43405
-aS'8:15:00'
+S'University Centre'
 p45260
-ag43406
-aa(lp45261
-g43408
-aS'8:20:00'
+aS'8:15:00'
+p45261
+aS'8:15:00'
 p45262
-ag43409
 aa(lp45263
-g43411
-aS'8:20:00'
+S'University Dep'
 p45264
-ag43412
-aa(lp45265
-g43414
+aS'8:20:00'
+p45265
 aS'8:20:00'
 p45266
-ag43415
 aa(lp45267
-g43417
-aS'8:20:00'
+S'Stone Rd. W. at Gordon St.'
 p45268
-ag43418
-aa(lp45269
-g43420
-aS'8:25:00'
+aS'8:20:00'
+p45269
+aS'8:20:00'
 p45270
-ag43421
 aa(lp45271
-g43423
-aS'8:25:00'
+S'Stone Rd. W. at Fire Hall'
 p45272
-ag43424
-aa(lp45273
-g43426
-aS'8:29:00'
+aS'8:20:00'
+p45273
+aS'8:20:00'
 p45274
-ag43427
 aa(lp45275
-g43429
-aS'8:29:00'
+S'Stone Rd. W. at Zellers'
 p45276
-ag43430
-aa(lp45277
-g43432
-aS'8:29:00'
+aS'8:20:00'
+p45277
+aS'8:20:00'
 p45278
-ag43433
 aa(lp45279
-g43435
-aS'8:29:00'
+S'583 Edinburgh Rd. S.'
 p45280
-ag43436
-aa(lp45281
-g43438
-aS'8:32:00'
+aS'8:25:00'
+p45281
+aS'8:25:00'
 p45282
-ag43439
 aa(lp45283
-g43441
-aS'8:32:00'
+S'685 Edinburgh Rd. S.'
 p45284
-ag43442
-aa(lp45285
-S'University Centre'
+aS'8:25:00'
+p45285
+aS'8:25:00'
 p45286
-aS'8:35:00'
-p45287
-aS'8:35:00'
+aa(lp45287
+S'Kortright Rd. at Edinburgh Rd. S.'
 p45288
-aa(lp45289
-S'University Dep'
+aS'8:29:00'
+p45289
+aS'8:29:00'
 p45290
-aS'8:40:00'
-p45291
-aS'8:40:00'
+aa(lp45291
+S'Kortright Rd. at Rickson Ave.'
 p45292
-aa(lp45293
-S'Stone Rd. W. at Gordon St.'
+aS'8:29:00'
+p45293
+aS'8:29:00'
 p45294
-aS'8:40:00'
-p45295
-aS'8:40:00'
+aa(lp45295
+S'Kortright Rd. opposite Yewholme Dr.'
 p45296
-aa(lp45297
-S'Stone Rd. W. at Fire Hall'
+aS'8:29:00'
+p45297
+aS'8:29:00'
 p45298
-aS'8:40:00'
-p45299
-aS'8:40:00'
+aa(lp45299
+S'Gordon St. at Kortright Rd.'
 p45300
-aa(lp45301
-S'Stone Rd. W. at Zellers'
+aS'8:29:00'
+p45301
+aS'8:29:00'
 p45302
-aS'8:40:00'
-p45303
-aS'8:40:00'
+aa(lp45303
+S'Gordon St. at Hands Dr.'
 p45304
-aa(lp45305
-S'583 Edinburgh Rd. S.'
+aS'8:32:00'
+p45305
+aS'8:32:00'
 p45306
-aS'8:45:00'
-p45307
-aS'8:45:00'
-p45308
-aa(lp45309
-S'685 Edinburgh Rd. S.'
-p45310
-aS'8:45:00'
-p45311
-aS'8:45:00'
-p45312
-aa(lp45313
-S'Kortright Rd. at Edinburgh Rd. S.'
-p45314
-aS'8:49:00'
-p45315
-aS'8:49:00'
-p45316
-aa(lp45317
-S'Kortright Rd. at Rickson Ave.'
-p45318
-aS'8:49:00'
-p45319
-aS'8:49:00'
-p45320
-aa(lp45321
-S'Kortright Rd. opposite Yewholme Dr.'
-p45322
-aS'8:49:00'
-p45323
-aS'8:49:00'
-p45324
-aa(lp45325
-S'Gordon St. at Kortright Rd.'
-p45326
-aS'8:52:00'
-p45327
-aS'8:52:00'
-p45328
-aa(lp45329
-S'Gordon St. at Hands Dr.'
-p45330
-aS'8:52:00'
-p45331
-aS'8:52:00'
-p45332
-aa(lp45333
+aa(lp45307
 S'Gordon St. at Monticello Cres.'
-p45334
-aS'8:52:00'
-p45335
-aS'8:52:00'
-p45336
-aa(lp45337
+p45308
+aS'8:32:00'
+p45309
+aS'8:32:00'
+p45310
+aa(lp45311
 S'University Centre'
-p45338
-aS'8:55:00'
-p45339
-aS'8:55:00'
-p45340
-aa(lp45341
+p45312
+aS'8:35:00'
+p45313
+aS'8:35:00'
+p45314
+aa(lp45315
 S'University Dep'
-p45342
-aS'9:00:00'
-p45343
-aS'9:00:00'
-p45344
-aa(lp45345
+p45316
+aS'8:40:00'
+p45317
+aS'8:40:00'
+p45318
+aa(lp45319
 S'Stone Rd. W. at Gordon St.'
-p45346
-aS'9:00:00'
-p45347
-aS'9:00:00'
-p45348
-aa(lp45349
+p45320
+aS'8:40:00'
+p45321
+aS'8:40:00'
+p45322
+aa(lp45323
 S'Stone Rd. W. at Fire Hall'
-p45350
-aS'9:00:00'
-p45351
-aS'9:00:00'
-p45352
-aa(lp45353
+p45324
+aS'8:40:00'
+p45325
+aS'8:40:00'
+p45326
+aa(lp45327
 S'Stone Rd. W. at Zellers'
-p45354
-aS'9:00:00'
-p45355
-aS'9:00:00'
-p45356
-aa(lp45357
+p45328
+aS'8:40:00'
+p45329
+aS'8:40:00'
+p45330
+aa(lp45331
 S'583 Edinburgh Rd. S.'
-p45358
-aS'9:05:00'
-p45359
-aS'9:05:00'
-p45360
-aa(lp45361
+p45332
+aS'8:45:00'
+p45333
+aS'8:45:00'
+p45334
+aa(lp45335
 S'685 Edinburgh Rd. S.'
-p45362
-aS'9:05:00'
-p45363
-aS'9:05:00'
-p45364
-aa(lp45365
+p45336
+aS'8:45:00'
+p45337
+aS'8:45:00'
+p45338
+aa(lp45339
 S'Kortright Rd. at Edinburgh Rd. S.'
-p45366
-aS'9:09:00'
-p45367
-aS'9:09:00'
-p45368
-aa(lp45369
+p45340
+aS'8:49:00'
+p45341
+aS'8:49:00'
+p45342
+aa(lp45343
 S'Kortright Rd. at Rickson Ave.'
-p45370
-aS'9:09:00'
-p45371
-aS'9:09:00'
-p45372
-aa(lp45373
+p45344
+aS'8:49:00'
+p45345
+aS'8:49:00'
+p45346
+aa(lp45347
 S'Kortright Rd. opposite Yewholme Dr.'
-p45374
-aS'9:09:00'
-p45375
-aS'9:09:00'
-p45376
-aa(lp45377
+p45348
+aS'8:49:00'
+p45349
+aS'8:49:00'
+p45350
+aa(lp45351
 S'Gordon St. at Kortright Rd.'
-p45378
-aS'9:12:00'
-p45379
-aS'9:12:00'
-p45380
-aa(lp45381
+p45352
+aS'8:52:00'
+p45353
+aS'8:52:00'
+p45354
+aa(lp45355
 S'Gordon St. at Hands Dr.'
+p45356
+aS'8:52:00'
+p45357
+aS'8:52:00'
+p45358
+aa(lp45359
+S'Gordon St. at Monticello Cres.'
+p45360
+aS'8:52:00'
+p45361
+aS'8:52:00'
+p45362
+aa(lp45363
+g43405
+aS'8:55:00'
+p45364
+ag43406
+aa(lp45365
+g43408
+aS'9:00:00'
+p45366
+ag43409
+aa(lp45367
+g43411
+aS'9:00:00'
+p45368
+ag43412
+aa(lp45369
+g43414
+aS'9:00:00'
+p45370
+ag43415
+aa(lp45371
+g43417
+aS'9:00:00'
+p45372
+ag43418
+aa(lp45373
+g43420
+aS'9:05:00'
+p45374
+ag43421
+aa(lp45375
+g43423
+aS'9:05:00'
+p45376
+ag43424
+aa(lp45377
+g43426
+aS'9:09:00'
+p45378
+ag43427
+aa(lp45379
+g43429
+aS'9:09:00'
+p45380
+ag43430
+aa(lp45381
+g43432
+aS'9:09:00'
 p45382
-aS'9:12:00'
-p45383
+ag43433
+aa(lp45383
+g43435
 aS'9:12:00'
 p45384
+ag43436
 aa(lp45385
-S'Gordon St. at Monticello Cres.'
-p45386
+g43438
 aS'9:12:00'
-p45387
+p45386
+ag43439
+aa(lp45387
+g43441
 aS'9:12:00'
 p45388
+ag43442
 aa(lp45389
 S'University Centre'
 p45390

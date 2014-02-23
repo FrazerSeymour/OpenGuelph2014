@@ -10,13 +10,13 @@
 
 				<div class="place_nav"></div>
 
-				<a href="/dt_path/{{ place.getName() }}/"><div class="place_nav" style="background: #ea6d24">
+				<div class="place_nav" style="background: #ea6d24">
 						{% if dt_time != False %}
-						<h3>Next bus from Guelph Central Station: {{ dt_time }}</h3>
+						<a href="/dt_path/{{ place.getName() }}/"><h3>Next bus from Guelph Central Station: {{ place.getDtRoute().getName() }} at {{ dt_time }}</h3></a>
 						{% else %}
 						<h3>Navigation unavailable from Guelph Central Station</h3>
 						{% endif %}
-				</div></a>
+				</div>
 
 				<div class="place_nav"></div>
 
@@ -26,13 +26,13 @@
 
 				<div class="place_nav"></div>
 
-				<a href="/uc_path/{{ place.getName() }}/"><div class="place_nav" style="background: #7b246d">
+				<div class="place_nav" style="background: #7b246d">
 						{% if uc_time != False %}
-						<h3>Next bus from University Centre: {{ uc_time }}</h3>
+						<a href="/uc_path/{{ place.getName() }}/"><h3>Next bus from University Centre: {{ place.getUcRoute().getName() }} at {{ uc_time }}</h3></a>
 						{% else %}
 						<h3>Navigation unavailable from University Centre</h3>
 						{% endif %}
-				</div></a>
+				</div>
 
 				<div class="place_nav"></div>
 

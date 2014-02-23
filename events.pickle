@@ -1,0 +1,68 @@
+(lp0
+(iopenguelph.classes
+Place
+p1
+(dp2
+S'description'
+p3
+S"Come down to Susie's Yoga Studio for a free one hour yoga class this Tuesday, February 25th at 6PM."
+p4
+sS'uc_path'
+p5
+I00
+sS'lon'
+p6
+I100
+sS'summary'
+p7
+S'Free yoga class downtown!'
+p8
+sS'dt_route'
+p9
+I00
+sS'address'
+p10
+S'123 Fitness St.'
+p11
+sS'lat'
+p12
+I100
+sS'dt_path'
+p13
+I00
+sS'uc_route'
+p14
+I00
+sS'name'
+p15
+S'Yoga'
+p16
+sba(iopenguelph.classes
+Place
+p17
+(dp18
+g3
+S"We're playing all your favorite classic board games! Wednesday the 26th starting a 7PM."
+p19
+sg5
+I00
+sg6
+I100
+sg7
+S'Classic board game tournament!'
+p20
+sg9
+I00
+sg10
+S'456 Geek St.'
+p21
+sg12
+I100
+sg13
+I00
+sg14
+I00
+sg15
+S'Board Games'
+p22
+sba.

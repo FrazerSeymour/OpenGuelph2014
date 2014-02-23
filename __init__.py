@@ -14,6 +14,11 @@ def go():
     return render_template("go.html", places=places)
 
 
+@app.route('/do/')
+def do():
+    return render_template("go.html", places=events)
+
+
 @app.route('/place/<placeName>/')
 def showPlace(placeName = None):
     for place in places:
@@ -42,6 +47,10 @@ def showUcPath(placeName = None):
 if __name__ == '__main__':
     f = open("./places.pickle", 'r')
     places = load(f)
+    f.close()
+
+    f = open("./events.pickle", 'r')
+    events = load(f)
     f.close()
 
     app.run()
