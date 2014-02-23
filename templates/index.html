@@ -1,14 +1,8 @@
-<!doctype.html>
-<html>
-	<head>
-		<title>Temporary Title</title>
-		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
-	</head>
-	<body>
-		<div style="margin: 10% 0px">
+{% extends "main.html" %}
+{% block body %}
+
+		<div style="margin: 5% 0px">
 				<a href="/go"><h1 class="index_button">Go Somewhere</h1></a>
 				<a href="#"><h1 class="index_button">Do Something</h1></a>
 		</div>
-	</body>
-</html>
-
+{% endblock %}

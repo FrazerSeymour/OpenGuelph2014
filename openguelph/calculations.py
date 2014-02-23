@@ -105,14 +105,14 @@ def getRoute(prefix, routes):
         date = datetime.today()
         day = date.weekday()
 
-        if day == 0:
+        if day == 5:
             for possibility in possibilities:
-                if "sunday" in possibility.getName():
+                if "saturday" in possibility.getName():
                     return possibility
 
         elif day == 6:
             for possibility in possibilities:
-                if "saturday" in possibility.getName():
+                if "sunday" in possibility.getName():
                     return possibility
 
         else:

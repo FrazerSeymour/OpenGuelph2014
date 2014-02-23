@@ -15,10 +15,12 @@ a {
 }
 
 .footer {
+		font-family: "sans";
+		color: #fff;
 		background: #323a45;
-		height: 100px;
 		width: 100%;
-		position: relative;
+		text-align: center;
+		padding: 2%;
 }
 
 
@@ -99,10 +101,28 @@ a {
 		font-family: "sans";
 		text-align: center;
 		vertical-align: center;
+		border-radius: 3px;
+		padding: 0.1%;
 }
 
 .place_description {
 		text-align: center;
 		font-family: "sans";
+		width: 100%;
+}
+
+
+
+
+.path_title {
+		font-family: "sans";
+		background: #e9e6e1;
+		padding: 0.25% 10%;
+		width: 100%;
+}
+
+.path_text {
+		font-family: "sans";
+		padding: 0.25% 10%;
 		width: 100%;
 }

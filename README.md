@@ -50,3 +50,7 @@ Sunday, 7:30 AM
   Well, that was quite the morning. Despite long stretches where I was hardly functioning, I managed to rewrite parts of `calculations` to compare multiple bus stops and pick the best one - accuracy is still a bit spotty though.
 
   The frontend is basically functional, I'll just be fleshing it out and adding some more detailed data for the demo.
+
+Sunday, 8:30 AM
+---
+  Gah! Almost done! Front end is looking great, now just need to implement the "Do Something" page.

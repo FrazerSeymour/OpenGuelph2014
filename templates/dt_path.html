@@ -1,9 +1,14 @@
 {% extends "main.html" %}
 {% block body %}
-				<h1>{{ place.getName() }} from Guelph Central Station</h1>
-				<h2>{{ place.getDtPath()[0][0] }}</h2>
-				{% for stop in place.getDtPath()[1:-1] %}
-				<h4>{{ stop[0] }}</h4>
-				{% endfor %}
-				<h2>{{ place.getDtPath()[-1][0] }}</h2>
+				<div class="path_title">
+						<h1>Guelph Central Station to {{ place.getName() }}</h1>
+						<h2>{{ place.getDtRoute().getName() }}, departing at {{ time}}</h2>
+				</div>
+				<div class="path_text">
+						<h2>Board at: {{ place.getDtPath()[0][0] }}</h2>
+						{% for stop in place.getDtPath()[1:-1] %}
+						<h4>{{ stop[0] }}</h4>
+						{% endfor %}
+						<h2>Depart at: {{ place.getDtPath()[-1][0] }}</h2>
+				</div>
 {% endblock %}

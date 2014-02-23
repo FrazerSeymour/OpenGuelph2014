@@ -1,9 +1,14 @@
 {% extends "main.html" %}
 {% block body %}
-				<h1>{{ place.getName() }} from University Centre</h1>
-				<h2>{{ place.getUcPath()[0][0] }}</h2>
-				{% for stop in place.getUcPath()[1:-1] %}
-				<h4>{{ stop[0] }}</h4>
-				{% endfor %}
-				<h2>{{ place.getUcPath()[-1][0] }}</h2>
+				<div class="path_title">
+						<h1>University Centre to {{ place.getName() }}</h1>
+						<h2>{{ place.getUcRoute().getName() }}, departing at {{ time }}</h2>
+				</div>
+				<div class="path_text">
+						<h2>Board at: {{ place.getUcPath()[0][0] }}</h2>
+						{% for stop in place.getUcPath()[1:-1] %}
+						<h4>{{ stop[0] }}</h4>
+						{% endfor %}
+						<h2>Depart at: {{ place.getUcPath()[-1][0] }}</h2>
+				</div>
 {% endblock %}
