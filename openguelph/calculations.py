@@ -13,9 +13,9 @@ def calculateDistance(x1, y1, x2, y2):
 
 
 
-def getNearestStop(lat, lon, stops):
+def getNearestStops(lat, lon, stops):
     distance = 100
-    user_stop = False
+    user_stops= [False, False, False]
 
     for stop in stops:
         stop_lat = float(stop.getLat())
@@ -23,10 +23,11 @@ def getNearestStop(lat, lon, stops):
 
         stop_distance = calculateDistance(lat, lon, stop_lat, stop_lon)
         if stop_distance < distance:
-            user_stop = stop
+            user_stops.pop(0)
+            user_stops.append(stop)
             distance = stop_distance
             
-    return user_stop
+    return user_stops
 
 
 
@@ -41,6 +42,9 @@ def getNextTime(stop, route):
 
     distance = 84600
     best_time = False
+    
+    if route == False:
+        return False
 
     for route_stop in route.getRoute():
         stop_name = route_stop[0]

@@ -4,6 +4,39 @@ from pickle import dump
 
 
 
+def fastestTry(tries):
+    time = datetime.now()
+    current_yr = time.year
+    current_month = time.month
+    current_day = time.day
+
+    lowest = 10000
+    lowestTry = None
+    for tri in tries:
+        if tri[1] != []:
+            split_time = tri[1][0][1].split(':')
+            stop_hr = int(split_time[0])
+            stop_min = int(split_time[1])
+            stop_sec = int(split_time[2])
+            depart_time = datetime(year = current_yr, month = current_month, day = current_day, hour = stop_hr, minute = stop_min)
+
+            split_time = tri[1][-1][1].split(':')
+            stop_hr = int(split_time[0])
+            stop_min = int(split_time[1])
+            stop_sec = int(split_time[2])
+            arrive_time = datetime(year = current_yr, month = current_month, day = current_day, hour = stop_hr, minute = stop_min)
+            diff = arrive_time - depart_time
+            diff = diff.total_seconds()
+
+            if diff < lowest:
+                lowestTry = tri
+                lowest = diff
+
+    return lowestTry
+
+
+
+
 def openData():
     f = open("./resources/parks.pickle", 'r')
     parks = load(f)
@@ -21,6 +54,13 @@ def openData():
 
 
 
+def tryRoute(destination, stop, route, routes):
+    routeName = getRoute(route, routes)
+    time = getNextTime(destination, routeName)
+    path = getPath(routeName, destination, time, stop)
+    return [routeName, path]
+
+
 if __name__ == "__main__":
     parks, routes, stops = openData()
 
@@ -36,27 +76,27 @@ if __name__ == "__main__":
         # Determine the closest bus stop.
         lat = float(park.getLat())
         lon = float(park.getLon())
-        user_stop = getNearestStop(lat, lon, stops)
+        user_stops = getNearestStops(lat, lon, stops)
 
-        # Determine the bus route.
-        route = getRoute(user_stop.getRoutes()[0], routes)
+        dt_tries = []
+        uc_tries = []
 
-        # Determine the next departure times.
-        uc_time = getNextTime("University Centre", route)
-        dt_time = getNextTime("Guelph Central Station", route)
+        for stop in user_stops:
+            if stop != False:
+                for route in stop.getRoutes():
+                    dt_tries.append(tryRoute("Guelph Central Station", stop, route, routes))
+                    uc_tries.append(tryRoute("University Centre", stop, route, routes))
 
-        # Determine the routes paths.
-        if uc_time != False:
-            uc_path = getPath(route, "University Centre", uc_time, user_stop)
-        else:
-            uc_path = []
+        try:
+            dt_route, dt_path = fastestTry(dt_tries)
+        except:
+            dt_route, dt_path = False, False
+        try:
+            uc_route, uc_path = fastestTry(uc_tries)
+        except:
+            uc_route, uc_path = False, False
 
-        if dt_time != False:
-            dt_path = getPath(route, "Guelph Central Station", dt_time, user_stop)
-        else:
-            dt_path = []
-
-        places.append(Place(name, summary, address, description, lat, lon, route, dt_path, route, uc_path))
+        places.append(Place(name, summary, address, description, lat, lon, dt_route, dt_path, uc_route, uc_path))
 
     # Pickle
     f = open("./places.pickle", 'w')

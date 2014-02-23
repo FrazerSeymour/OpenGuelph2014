@@ -44,3 +44,9 @@ Sunday, 2:30 AM
   I feel like I haven't accomplished much in the last four hours, but I haven't stopped working so I must have done something.
 
   Created generic `Place` class and converted `Park`s into `Place`s. Also made some headway on the webapp front-end.
+
+Sunday, 7:30 AM
+---
+  Well, that was quite the morning. Despite long stretches where I was hardly functioning, I managed to rewrite parts of `calculations` to compare multiple bus stops and pick the best one - accuracy is still a bit spotty though.
+
+  The frontend is basically functional, I'll just be fleshing it out and adding some more detailed data for the demo.
