@@ -1,23 +1,27 @@
 from csv import reader
 from pickle import dump
 
+
 class Stop:
-    def __init__(self, name, lat, lon):
-        self.name = name
+    def __init__(self, lat, lon):
         self.lat = lat
         self.lon = lon
+        self.names = []
         self.routes = []
         
         
-    def getName(self):      return self.name
     def getLat(self):       return self.lat
     def getLon(self):       return self.lon
+    def getNames(self):      return self.names
     def getRoutes(self):    return self.routes
     
+    def addName(self, name):
+        if not self.names.count(name):
+            self.names.append(name)
+
     def addRoute(self, item):
         if not self.routes.count(item):
             self.routes.append(item)
-
 
 
 
@@ -32,21 +36,23 @@ if __name__ == "__main__":
             try:
                 if row[0] != "stop_id":
                     name = row[2]
-                    name = name.upper()
-                    name = name.replace(".", "")
+                    #name = name.upper()
+                    #name = name.replace(".", "")
 
+                    route = row[0].split("-")[0]
+                    if route == "Route":
+                        route = "Route Gordon Corridor"
+                    
                     lat = row[4]
                     lon = row[5]
 
                     if not positions.count([lat, lon]):
                         positions.append([lat, lon])
-                        stops.append(Stop(name, lat, lon))
+                        stops.append(Stop(lat, lon))
 
-                    route = row[0].split("-")[0]
-                    if route == "Route":
-                        route = "Route Gordon Corridor"
                     for stop in stops:
                         if lat == stop.getLat() and lon == stop.getLon():
+                            stop.addName(name)
                             stop.addRoute(route)
                 
 

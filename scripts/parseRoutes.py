@@ -19,6 +19,9 @@ class Route:
     def getName(self): return self.name
     def getRoute(self): return self.route
 
+    def sortRoute(self):
+        self.route.sort(key=lambda stop: stop[1])
+
 if __name__ == "__main__":
     routes = []
     
@@ -37,7 +40,7 @@ if __name__ == "__main__":
                     names.append(name)
                     routes.append(Route(name))
 
-                stopName = row[3].split('_')[1].title()
+                stopName = row[3].split('_')[1]
                 for route in routes:
                     if name == route.getName():
                         route.appendToRoute([stopName, row[1], row[2]])
@@ -47,6 +50,9 @@ if __name__ == "__main__":
                 pass
         
         csvfile.close()
+
+    for route in routes:
+        route.sortRoute()
 
     f = open("./resources/routes.pickle", 'w')
     dump(routes, f)
