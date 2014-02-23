@@ -2,14 +2,14 @@
 <html>
 		<head>
 				{% if title %}
-				<title>{{ title }}</title>
+				<title>Explotre Guelph - {{ title }}</title>
 				{% else %}
-				<title>Temporary Title</title>
+				<title>Explore Guelph</title>
 				{% endif %}
 				<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 		</head>
 		<body>
-				<div class=header></div>
+				<div class=header><h1>Explore Guelph</h1></div>
 
 				{% block body %}{% endblock %}
 

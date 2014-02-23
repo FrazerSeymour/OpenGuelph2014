@@ -1,8 +1,17 @@
+a {
+		text-decoration: none;
+}
+
+
+
 .header {
+		color: #fff;
 		background: #00a7e5;
-		height: 100px;
 		width: 100%;
-		position: relative;
+		vertical-align: center;
+		text-align: center;
+		font-family: "sans";
+		padding: 1%;
 }
 
 .footer {
@@ -11,6 +20,8 @@
 		width: 100%;
 		position: relative;
 }
+
+
 
 .index_button {
 		color: #323a45;
@@ -31,9 +42,8 @@
 		color: #fff;
 }
 
-a {
-		text-decoration: none;
-}
+
+
 
 .go_place {
 		margin: 2% 25%;
@@ -70,4 +80,23 @@ a {
 		position: relative;
 		text-align: right;
 		width: 47%;
+}
+
+
+
+
+.place_name {
+		font-family: "sans";
+		background: #e9e6e1;
+		padding: 0.25% 10%;
+		width: 100%;
+}
+
+.place_nav {
+		color: #fff;
+		display: inline-block;
+		width: 14.5%;
+		font-family: "sans";
+		text-align: center;
+		vertical-align: center;
 }

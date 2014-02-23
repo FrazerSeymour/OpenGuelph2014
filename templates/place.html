@@ -1,0 +1,38 @@
+{% extends "main.html" %}
+{% block body %}
+				<div class="place_name">
+						<h1>{{ place.getName() }}</h1>
+						<h2>{{ place.getSummary() }}</h2>
+				</div>
+				<h3>{{ place.getDescription() }}</h3>
+
+
+				<div class="place_nav"></div>
+
+				<a href="#"><div class="place_nav" style="background: #ea6d24">
+						{% if dt_time != False %}
+						<h3>Next bus from Guelph Central Station: {{ dt_time }}</h3>
+						{% else %}
+						<h3>Navigation unavailable from Guelph Central Station</h3>
+						{% endif %}
+				</div></a>
+
+				<div class="place_nav"></div>
+
+				<a href="#"><div class="place_nav" style="background: #00a7e5">
+						<h3>Google Maps directions to {{ place.getAddress() }}</h3>
+				</div></a>
+
+				<div class="place_nav"></div>
+
+				<a href="#"><div class="place_nav" style="background: #7b246d">
+						{% if uc_time != False %}
+						<h3>Next bus from University Centre: {{ uc_time }}</h3>
+						{% else %}
+						<h3>Navigation unavailable from University Centre</h3>
+						{% endif %}
+				</div></a>
+
+				<div class="place_nav"></div>
+
+{% endblock %}

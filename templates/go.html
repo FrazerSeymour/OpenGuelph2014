@@ -3,9 +3,9 @@
 {% for place in places %}
 				
 				<a href="/place/{{place.name}}"><div class="go_place">
-						<div class="go_name"><h1>{{ place.name }}</h1></div>
-						<h3 class="go_address">{{ place.address }}</h3>
-						<h3 class="go_summary">{{ place.summary }}</h3>
+						<div class="go_name"><h1>{{ place.getName() }}</h1></div>
+						<h3 class="go_address">{{ place.getAddress() }}</h3>
+						<h3 class="go_summary">{{ place.getSummary() }}</h3>
 				</div></a>
 {% endfor %}
 {% endblock %}
